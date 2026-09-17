@@ -1,0 +1,63 @@
+This file is just for me to track my progress on this mod specifically.
+
+Things I think I need to do
+
+Make the first new tool. I am going to start with Bone since that was the thing that started this then move on to the different wood species
+Make a bone handled copper axe. 
+steps for that:
+find out how to make the make the model,
+find out how to make the texture, I don't think I need to add any new textures to teh game. but maybe a new shape or something
+Find out how to chagne the stats of the new tool type. Is it even a new tool at all? How does the game handle the existing bone stone axe vs stick stone axe
+
+Make bone handled tools for all copper tools
+
+Make bone handled tools for all tools of all materials
+
+Figure out how the built in Variants mechanic works in the game so I don't need to do all that again maybe
+
+Make new handle type for the first species of wood. starting with Pine, same stats as sticks
+Use variants to make the rest of the tools and give each one different stats. In reality I really only want 3 or 4 tiers
+
+Sticks and pine and maybe some other soft woods are lowest tier
+some of the middling woods can be equal to bone handles
+a higher handle type for the rest of the woods
+And some Peak wood type for fun. 
+
+VS wood types
+Acacia
+Bald cypress
+Birch
+Crimson King maple
+Ebony
+Kapok
+Larch
+Maple
+Oak
+Pine
+Purpleheart
+Redwood
+Walnut
+Here are the woods in with the hardness rating, These are technically only surface hardness ratings, not actually what would make a good handle but that is as far as I am going to go
+I also don't want to give anything more than an 30% increase in strength since that feels too overpowered
+Weakest- minus 15%  
+Kapok 240
+
+Nutural - no bonus
+Redwood 450
+Pine 420
+Bald Cypress 510
+Larch 830
+
+Good - 10% bonus
+Crimson King Maple 1000
+Walnut 1010
+Birch 1260
+Oak 1290
+
+Better - Whatever percentage increse bone is it will go here maybe 15 or 20%
+Maple 1450
+Acacia 1750
+PurpleHeart 1860
+
+Best - 30% its more fun to have one best option
+Ebony 3220

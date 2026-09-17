@@ -10,10 +10,15 @@ I don't want to make a dedicated tool handle object. I have seen other mods do t
 
 The last mod Idea I want to make is a way to combine the tool heads and handles without the crafting grid. similar to how fire is made. Basically I want to put the tool head on the floor and interact with it with a viable handle option to smash them together into a tool. Another option for this is to put the tool head in the off hand and selecting an handle material with main and and interacting with that somehow. 
 
-1. Bone Handles
-2. Board Handles
+1. Bone Handles+Board Handles
+2. 
 3. Boards instead of sticks
 4. smashing tool heads and handles together
+5. Tree Growth Stages
+6. Throwing anything
+7. hoe packed dirt and rammed earth to convert it back down ( I am stealing this idea from someone else)
+8. Mixed stone types for path blocks. 
+9. Remove helmet move speed penalty
 
 I should try to find some community of modders I can ask questions too for these types of things
 
@@ -25,3 +30,4 @@ I had another Idea for a mod. Throw anything like a rock. If there is a an extra
 I made my first Mod! I couldn't get the lang file to load correctly but I am going to copy another mod when It gets there or maybe AI can help me fix it. I wonder how easy it is to vibe code mods for this game. the documentation is actually super nice. the best I ahve read for getting started. I need to make a git repo for my changes and stuff. I also think I want to have separate copies of the assets folder for when I just want to play and when I am working on mods I don't really want to mess up my world since I am working on mods. I don't know if I will need to add any code mods. so far most of the things I want to do are just JSON mods. I think that is the difference that they use online. The first mod I will make is the bone handles mod. Just that by itself then after that is good I will figure out the board handles. I think that one can use the variants system. I am excited to learn how that works. I need to go to bed.
 
 I am going to make my git repo today and start on the mods. I think I want one repo for all of my mods and that should be easy enough
+I am done making the git repo. it was quite easy. I am now going to make a seperate file for the specific mod that I wan to make first although I will come back to this file to add new Ideas I as I thing of them
