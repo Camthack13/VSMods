@@ -1,0 +1,27 @@
+I want to make a few vintage story mods. I have never really made game mods but I want to for this game and the mods I want to make sound simple enough to me. 
+
+This is the basic idea that I want to make. I don't like the reliance of sticks in the mid to late game. so I want to make some alternatives to some of the uses of sticks. 
+
+First Bone handles. I like that bones can be used for axe and knife handles. I get that they are too short for spear, hoe, and shovels. but I want to be able to make handles for my knives and axes out of bone after I leave the stone age too. i want bone handles for pickaxes and prospecting picks as well for every tier. 
+
+In addition I don't like that boards can't be turned into sticks, I don't really mind this because honestly they are different. a stick is different than a stave. kind of. Basically I want to make boards useable as sticks in some of the way sticks are being used, namely pit kilns. I want to use boards as kindleing in pit kilns and I want to be able to use boards as handles. and have the different types of wood have different durability's. like an oak handle is stronger than a pine handle. because that is true. They could also appear different for each species of wood. 
+
+I don't want to make a dedicated tool handle object. I have seen other mods do that but I don't think that adds anything to the game. they are only single use items at that point.  
+
+The last mod Idea I want to make is a way to combine the tool heads and handles without the crafting grid. similar to how fire is made. Basically I want to put the tool head on the floor and interact with it with a viable handle option to smash them together into a tool. Another option for this is to put the tool head in the off hand and selecting an handle material with main and and interacting with that somehow. 
+
+1. Bone Handles
+2. Board Handles
+3. Boards instead of sticks
+4. smashing tool heads and handles together
+
+I should try to find some community of modders I can ask questions too for these types of things
+
+I had another Idea for tree growth mod
+Instead of trees going from sapligns to full sized they go have 2 extra growth stages, one where it drops sticks when you chop it and one where it drops fire wood if you chop it. That way trees have a similar growth stages to crops kind of. The over all time it would take to grow trees would stay the same but it could be cooler visually
+
+I had another Idea for a mod. Throw anything like a rock. If there is a an extra button combination. like shift q or something. you could throw anything. 
+
+I made my first Mod! I couldn't get the lang file to load correctly but I am going to copy another mod when It gets there or maybe AI can help me fix it. I wonder how easy it is to vibe code mods for this game. the documentation is actually super nice. the best I ahve read for getting started. I need to make a git repo for my changes and stuff. I also think I want to have separate copies of the assets folder for when I just want to play and when I am working on mods I don't really want to mess up my world since I am working on mods. I don't know if I will need to add any code mods. so far most of the things I want to do are just JSON mods. I think that is the difference that they use online. The first mod I will make is the bone handles mod. Just that by itself then after that is good I will figure out the board handles. I think that one can use the variants system. I am excited to learn how that works. I need to go to bed.
+
+I am going to make my git repo today and start on the mods. I think I want one repo for all of my mods and that should be easy enough
