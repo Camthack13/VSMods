@@ -27,7 +27,6 @@ VS wood types
 Acacia
 Bald cypress
 Birch
-Crimson King maple
 Ebony
 Kapok
 Larch
@@ -47,17 +46,114 @@ Redwood 450
 Pine 420
 Bald Cypress 510
 Larch 830
+Stick
 
 Good - 10% bonus
-Crimson King Maple 1000
 Walnut 1010
 Birch 1260
 Oak 1290
+Bone (I am choosing to put bone here to make it so wood handles have a chance of being better)
 
-Better - Whatever percentage increse bone is it will go here maybe 15 or 20%
+Better - 17% bonus
 Maple 1450
 Acacia 1750
 PurpleHeart 1860
 
-Best - 30% its more fun to have one best option
+
+Best - 25% its more fun to have one best option
 Ebony 3220
+
+Actually Now that I am thinkgin about it they probably should be flat bonuses, not percentge bonuses. Since a 
+steel axe with stick handle is 1800 and a metoric iron with an ebony handle would be 1560. I'll think about it
+
+Alright I have decided on what things are the way they are. I need to find out how the game handles the axes now. To see if they are all seperate things or there is something do to with the variants system.
+I will start by tring to find all the file and recipes and asking AI for advice
+
+I am done creating bone handles for axes. 
+Things that needed to be edited.
+The item files for axes, stone and metal
+The Recipes files
+The lang files
+
+I didn't even need to touch the shape files since they are just being retextured to existing textures.
+I am going to do the other tools now. I want to get bone handles for all the tools before I start adding the other wood varients since
+setting up them to have a handle variantGroup will be a bigger change that just adding more variants to the groups.
+
+The next tools I am going to do are knives
+Then spears
+then Shovels
+Pickaxes
+Propecting Picks
+Hammers
+
+I changed my mind. Spears and shovels will be last since they don't do bone handles
+I am done adding knife handle with bone.
+I am now also done adding the bone handle to the pickaxe, Although I cam up with a better system for setting the durability buff. 
+Starting with a 20 durability buff for tier one tools. 
+Each buff will be multiplied by the tier of tool it is. 
+
+Neutral - 0 per tier
+Good - 20 per tier
+Better - 30 per tier
+Best - 40 per tier
+bad- I still want to do a percent debuf on this one
+
+I have been using google sheets to calculate all the durabilities for each tool. After I add bone handles to all of them I can ensure the durabilities are correct.
+
+I am going to make the changes to the prospecting pick. should be the simplest so far
+
+I have just been working on the google sheet so far. I think I might add more stuff to the falx and sword too but just cosmetically. not affecting the durabilities
+I am fighting the urge to make up some way to scale the buff per teir per tool to match something to do with the original tools durabilities. 
+This would make tools with less durability get a smaller buff and tool with more durability get a bigger buff while still following the same pattern of the handle buff scaling with tool tier. 
+The issue is that only knives and axes had this from the beginning so I don' t have a good starting point. My only guss would be that when it comes to copper axes buff.
+
+I changed my mind I am not going to chagne anything. since the weaker weapons and tools, I would rather buff more and the stronger tools don't really need anything more. Its fine to me that this is a little equalizing.
+
+i want to see if I can do an || or operator when setting up the durabilities by type in the JSON files. It will make the stone and other ones with the same durabilities much nicer. I think it should work maybe but probably not.
+AI says it might work if I use the @ symbol. That won't matter until after I am done adding the bones types
+
+I am finally getting around to doing the prospecting picks, THREE files, item Type file, Recipe file, Lang file. Pickaxe file should look almost the same.
+mOVING ON to Hammers, Hammers have bone handles now, It tool two tries but it works now
+
+The next one is spears and I don't know exactly how I am going to do this one. since they don't have bone handles. I guess I just go straigt into the wood types
+The wood types are going ok. I found out I can use the @ regex with the wild cards there needs to be a "." before the wildcard for it to work together. This changes everythign. 
+I need to go back through everything I have done to find those @ symbols at the end.
+
+I have decided to give up on ebony as a higher class than the other handles. 
+This would limit it to a true three tier system. Its just cleaner code with out it. Although my mind may change again
+
+THe new three tiers are
+
+normal - 6 options
+stick
+Redwood
+pine
+Larch
+Kapok
+bald cypress
+
+good - 4 options
+bone
+Walnut
+Birch
+oak
+
+best - 4 options
+maple
+Acacia
+PurpleHeart
+ebony
+
+I don't love it but its cleaner this way, it will be a lot less code to write. 
+
+Add textureBytype back to attributes in spear, and fix some recipe for tuning spear or something, and add the durability changes
+my thrown spear is not the right texture. I think it might be because it is an entity but I am not sure. 
+WHen I changed the thrown spear texture it broke something else, but I fixed that too.
+I also have added all the colors to axes now. Moving on to knives
+
+When I chagned the number of teirs I didn't rework their bonus, so right now it is 0, 20, 30 per tier 
+This feels wrong to me. like I should either bring the 20 down to 15 or the 30 to 40 or maybe both. IDK, it should be easyish to adjust later
+Spears by far feel the buff the most and hammers feel it the least. which makes sense in my mind.
+
+Knives are done. pickaxes are next
+ 
