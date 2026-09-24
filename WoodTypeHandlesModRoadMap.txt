@@ -156,4 +156,42 @@ This feels wrong to me. like I should either bring the 20 down to 15 or the 30 t
 Spears by far feel the buff the most and hammers feel it the least. which makes sense in my mind.
 
 Knives are done. pickaxes are next
- 
+pickaxes and prostectingpicks are done, On to Hammers
+
+I think I am done, done, I mean
+
+I have implmented handle variants on 
+axes
+hammers
+pickaxes
+prospectingpicks
+knives
+shovels
+spears
+scyths
+hoes
+
+that is nine tools types,
+I could techincally do more. like snow shovels and falxs and swords 
+
+maybe three more tops? 
+I have decided I am going to do three more.
+Saws, Falxs, Snow Shovels. ALthough these will not have the durability modifiyers
+
+The saws will be the easiest, especially since I am not changing the durabilities
+
+The falxs will be the hardest since I think I am going to create a new file just for them. yeah
+
+The snow shovels will be difficult as well since they are going to requre a very different recipe than the others
+
+I am putting an original copy of blade.json here incase I need to go backwards
+The plan is straight forward. Remove any mention of the falx from the original blade.json and remove anything not related to the falx in 
+blade-falx.json
+
+Falx is done, moving on to saw.
+I finished the saw and the snow shovel.
+
+I am done adding features to this mod
+Now I need to work on packaging it so I can release it.
+
+What are the steps to packaging a mod. Number one, Use the modmaker file. then add the lang file. 
