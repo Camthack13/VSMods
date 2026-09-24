@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "prospectingpickhead-*", name: "metal"  },
+			"H": { type: "item", code: "*", allowedVariants: [ "stick", "bone" ], name: "handle" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "prospectingpick-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "prospectingpickhead-*", name: "metal"  },
+			"H": { type: "item", code: "plank-*", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"], name: "handle" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "prospectingpick-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

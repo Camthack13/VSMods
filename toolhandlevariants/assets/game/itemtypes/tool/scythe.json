@@ -1,0 +1,116 @@
+{
+	code: "scythe",
+	damagedby: ["blockbreaking"],
+	class: "ItemScythe",
+	tags: ["tool", "tool-scythe"],
+	tool: "Scythe",
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron",
+															"meteoriciron", "steel"
+		  ] },
+		{ code: "handle", states: ["stick", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	attributes: {
+        attachableToEntity: { categoryCode: "toolholding" },
+		heldItemPitchFollow: 0.5,
+		codePrefixes: ["crop", "tallgrass", "frostedtallgrass", "tallplant-coopersreed-land-normal", "tallplant-papyrus-land-normal", "tallplant-tule-land-normal",
+									 "tallplant-coopersreed-water-normal", "tallplant-papyrus-water-normal", "tallplant-coopersreed-ice-normal",
+									 "flower-horsetail"
+		],
+		disallowedSuffixes: ["snow2", "snow3"],
+		handbook: {
+			groupBy: ["scythe-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 3, z: -1 },
+			translation: { x: -0.35, y: 0.5 },
+			scale: 1,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: 0.64, z: -0.35 },
+			rotation: { x: 37, y: 105, z: -100 },
+			scale: 0.85
+		},
+		rememberToolModeWhenBroken: true
+	},
+	behaviors: [{
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "Buffable" }],
+	shape: { base: "item/tool/scythe" },
+	heldTpHitAnimation: "scythe",
+	heldTpIdleAnimation: "scytheIdle",
+	heldRightReadyAnimation: "scytheReady",
+	heldTpUseAnimation: "interactStaticLong",
+	texturesByType: {
+		"*-stick": {
+			"metal": { base: "block/metal/ingot/{metal}" }
+		},
+		"*": {
+			"metal": { base: "block/metal/ingot/{metal}" },
+			handle: { base: "block/wood/debarked/{handle}" }
+		}
+	},
+	durabilitybytype: {
+		"@scythe-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 15,
+		"@scythe-gold-(walnut|birch|oak)": 55,
+		"@scythe-gold-(maple|acacia|purpleheart|ebony)": 75,
+
+		"@scythe-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 187,
+		"@scythe-silver-(walnut|birch|oak)": 227,
+		"@scythe-silver-(maple|acacia|purpleheart|ebony)": 247,
+
+		"@scythe-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 450,
+		"@scythe-copper-(walnut|birch|oak)": 490,
+		"@scythe-copper-(maple|acacia|purpleheart|ebony)": 510,
+
+		"@scythe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 600,
+		"@scythe-tinbronze-(walnut|birch|oak)": 660,
+		"@scythe-tinbronze-(maple|acacia|purpleheart|ebony)": 690,
+
+		"@scythe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 750,
+		"@scythe-bismuthbronze-(walnut|birch|oak)": 810,
+		"@scythe-bismuthbronze-(maple|acacia|purpleheart|ebony)": 840,
+
+		"@scythe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 900,
+		"@scythe-blackbronze-(walnut|birch|oak)": 960,
+		"@scythe-blackbronze-(maple|acacia|purpleheart|ebony)": 990,
+
+		"@scythe-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 1350,
+		"@scythe-iron-(walnut|birch|oak)": 1430,
+		"@scythe-iron-(maple|acacia|purpleheart|ebony)": 1470,
+
+		"@scythe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 1800,
+		"@scythe-meteoriciron-(walnut|birch|oak)": 1880,
+		"@scythe-meteoriciron-(maple|acacia|purpleheart|ebony)": 1920,
+
+		"@scythe-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 3400,
+		"@scythe-steel-(walnut|birch|oak)": 3500,
+		"@scythe-steel-(maple|acacia|purpleheart|ebony)": 3550,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -93, y: 30, z: 44 },
+		origin: { x: 0.5, y: 0, z: 0.05 },
+		scale: 0.82
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -1.54, y: -0.01, z: -0.66 },
+		rotation: { x: -10, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.8
+	}
+}

@@ -1,0 +1,32 @@
+[
+	{
+		ingredientPattern: "T	S",
+		ingredients: {
+			"T": { type: "item", code: "shovelhead-*", name: "material"  },
+			"S": { type: "item", code: "stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "shovel-{material}-stick", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},
+	{
+		ingredientPattern: "_P_,_P_,PCP",
+		ingredients: {
+			"P": { type: "item", code: "plank-*" },
+			"C": { type: "item", code: "plank-*", name:"color", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "snowshovel-{color}", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "shovelhead-*", name: "material"  },
+			"H": { type: "item", code: "plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "shovel-{material}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

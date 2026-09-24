@@ -15,7 +15,7 @@ The last mod Idea I want to make is a way to combine the tool heads and handles 
 3. Boards instead of sticks
 4. smashing tool heads and handles together
 5. Tree Growth Stages
-6. Throwing anything
+6. Throwing anything as a weapon
 7. hoe packed dirt and rammed earth to convert it back down ( I am stealing this idea from someone else)
 8. Mixed stone types for path blocks. 
 9. Remove helmet move speed penalty

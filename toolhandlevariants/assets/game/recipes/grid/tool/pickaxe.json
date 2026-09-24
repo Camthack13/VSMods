@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "pickaxehead-*", name: "metal", allowedVariants: [ "copper", "bismuthbronze", "tinbronze", "gold", "silver", "blackbronze", "iron", "meteoriciron", "steel" ] },
+			"H": { type: "item", code: "*" , name: "handle", allowedVariants: [ "stick", "bone" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "pickaxe-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "pickaxehead-*", name: "metal", allowedVariants: [ "copper", "bismuthbronze", "tinbronze", "gold", "silver", "blackbronze", "iron", "meteoriciron", "steel" ] },
+			"H": { type: "item", code: "plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "pickaxe-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

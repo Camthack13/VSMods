@@ -203,3 +203,7 @@ before applying the mod they get converted into *-stick tools so they can be loa
 And maybe someway for all the tools to be stripped of their last tag converting them back to regualar tools 
 
 There might be a way to make this happen with a code mod maybe.
+
+I tried using the mod maker and it didn't work how I expected at all. It tried to generate patches to the files These didn't really work since my changes are so signicant that
+Every single line of every file needed to be changed. This means that my mod will not be compatible with any other mods that touch these files. I need to just overwrite the entire file.
+

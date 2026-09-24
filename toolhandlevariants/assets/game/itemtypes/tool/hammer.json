@@ -1,0 +1,149 @@
+{
+	code: "hammer",
+	class: "ItemHammer",
+	tags: ["tool", "tool-hammer"],
+	storageFlags: 257,
+	attributes: {
+		attachableToEntity: { categoryCode: "toolholding" },
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["hammer-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.2, y: 0.02 },
+			scale: 1.5,
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: -0.16, z: 0.33 },
+			rotation: { x: 26, y: 88, z: -87 },
+			scale: 1.01
+		},
+		rememberToolModeWhenBroken: true,
+        displayable: {
+            shelf: {
+                size: { width: 4, height: 2, length: 8 },
+				transform: {
+					translation: { x: 0, y: -0.455, z: 0.15 },
+					rotation: { x: 4, y: 90, z: 0 }
+				}
+            }
+        }
+	},
+	behaviors: [
+		{
+			name: "GroundStorable",
+			properties: {
+				layout: 'WallHalves',
+				wallOffY: 1,
+				ctrlKey: true,
+				selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+				collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+			}
+		},
+		{ name: "AnimationAuthoritative" },
+		{ name: "Buffable" }
+	],
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver",
+															"iron", "meteoriciron", "steel"
+		  ] },
+		{ code: "handle", states: ["stick", "bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	tool: "hammer",
+	damagedby: ["blockbreaking", "attacking"],
+	heldTpHitAnimation: "smithingwide",
+	shape: { base: "item/tool/hammer" },
+	texturesByType: {
+		"*-bone": {
+			"metal": { base: "block/metal/ingot/{metal}" },
+			"wood": { base: "block/creature/bone-yellow" }
+		},
+		"*-stick": {
+			"metal": { base: "block/metal/ingot/{metal}" },
+			"wood": { base: "item/tool/handle" }
+		},
+		"@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)": {
+			"metal": { base: "block/metal/ingot/{metal}" },
+			"wood": { base: "block/wood/debarked/{handle}" }
+		}
+	},
+	tooltierbytype: {
+		"*-copper-*": 2,
+		"*-gold-*": 2,
+		"*-silver-*": 2,
+		"*-bismuthbronze-*": 3,
+		"*-tinbronze-*": 3,
+		"*-blackbronze-*": 3,
+		"*-iron-*": 4,
+		"*-meteoriciron-*": 4,
+		"*-steel-*": 5
+	},
+	durabilitybytype: {
+		"@hammer-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 250,
+		"@hammer-gold-(bone|walnut|birch|oak)": 290, 
+		"@hammer-gold-(maple|acacia|purpleheart|ebony)": 310,
+
+		"@hammer-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 250,
+		"@hammer-silver-(bone|walnut|birch|oak)": 290, 
+		"@hammer-silver-(maple|acacia|purpleheart|ebony)": 310,
+
+		"@hammer-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 500,
+		"@hammer-copper-(bone|walnut|birch|oak)": 540, 
+		"@hammer-copper-(maple|acacia|purpleheart|ebony)": 560,
+
+		"@hammer-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 750,
+		"@hammer-tinbronze-(bone|walnut|birch|oak)": 810, 
+		"@hammer-tinbronze-(maple|acacia|purpleheart|ebony)": 840,
+
+		"@hammer-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 900,
+		"@hammer-bismuthbronze-(bone|walnut|birch|oak)": 960,
+		"@hammer-bismuthbronze-(maple|acacia|purpleheart|ebony)": 990,
+
+		"@hammer-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 1100,
+		"@hammer-blackbronze-(bone|walnut|birch|oak)": 1160, 
+		"@hammer-blackbronze-(maple|acacia|purpleheart|ebony)": 1190,
+
+		"@hammer-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 1800,
+		"@hammer-iron-(bone|walnut|birch|oak)": 1880, 
+		"@hammer-iron-(maple|acacia|purpleheart|ebony)": 1920,
+
+		"@hammer-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 2100,
+		"@hammer-meteoriciron-(bone|walnut|birch|oak)": 2180, 
+		"@hammer-meteoriciron-(maple|acacia|purpleheart|ebony)": 2220,
+
+		"@hammer-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 4500,
+		"@hammer-steel-(bone|walnut|birch|oak)": 4600, 
+		"@hammer-steel-(maple|acacia|purpleheart|ebony)": 4650,
+	},
+	attackpowerbytype: {
+		"hammer-stone-*": 1,
+		"hammer-copper-*": 1.25,
+		"hammer-gold-*": 1.5,
+		"hammer-silver-*": 1.5,
+		"hammer-bismuthbronze-*": 1.5,
+		"hammer-tinbronze-*": 1.75,
+		"hammer-blackbronze-*": 2,
+		"hammer-iron-*": 2.25,
+		"hammer-meteoriciron-*": 2.35,
+		"hammer-steel-*": 2.5
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -77, y: 46, z: 8 },
+		origin: { x: 0.59, y: 0.5, z: 0.49 },
+		scale: 2.6
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 4.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.65, y: -0.48, z: -0.52 },
+		rotation: { x: 90, y: 1, z: 0 },
+		scale: 1
+	}
+}

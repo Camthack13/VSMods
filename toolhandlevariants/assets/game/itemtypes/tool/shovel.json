@@ -1,0 +1,273 @@
+{
+	code: "shovel",
+	tags: ["tool", "tool-shovel"],
+	behaviors: [{
+		name: "GroundStorable",
+		properties: {
+			layout: 'WallHalves',
+			wallOffY: 2,
+			ctrlKey: true,
+			selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+			collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+		}
+	}, { name: "Buffable" }],
+	attributes: {
+		attachableToEntity: { categoryCode: "toolholding" },
+		groundStorageTransformByType: {
+			"@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": {
+				translation: { x: 0, y: 0.59, z: -0.15 },
+				rotation: { x: 13, y: 88, z: -87 },
+				scale: 0.88
+			},
+			"*": {
+				translation: { x: 0, y: 0.4, z: -0.155 },
+				rotation: { x: 13, y: 88, z: -87 },
+				scale: 0.88
+			}
+		},
+		handbook: {
+			groupBy: ["shovel-*"]
+		},
+		toolrackTransform: {
+			rotation: { y: 1, z: -1 },
+			translation: { x: -0.47, y: 0.6 },
+			scale: 1.25,
+		}
+	},
+	variantgroups: [
+		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint",
+										"copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver","iron", "meteoriciron", "steel"] },
+		{ code: "handle", states: ["stick", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	tool: "shovel",
+	damagedby: ["blockbreaking", "attacking"],
+	shapeByType: {
+		"shovel-chert-*": { base: "item/tool/shovel-stone" },
+		"shovel-granite-*": { base: "item/tool/shovel-stone" },
+		"shovel-andesite-*": { base: "item/tool/shovel-stone" },
+		"shovel-basalt-*": { base: "item/tool/shovel-stone" },
+		"shovel-obsidian-*": { base: "item/tool/shovel-stone" },
+		"shovel-peridotite-*": { base: "item/tool/shovel-stone" },
+		"shovel-flint-*": { base: "item/tool/shovel-stone" },
+		"shovel-copper-*": { base: "item/tool/shovel-copper" },
+		"shovel-tinbronze-*": { base: "item/tool/shovel-copper" },
+		"shovel-bismuthbronze-*": { base: "item/tool/shovel-copper" },
+		"shovel-blackbronze-*": { base: "item/tool/shovel-copper" },
+		"shovel-gold-*": { base: "item/tool/shovel-copper" },
+		"shovel-silver-*": { base: "item/tool/shovel-copper" },
+		"shovel-iron-*": { base: "item/tool/shovel-copper" },
+		"shovel-meteoriciron-*": { base: "item/tool/shovel-copper" },
+		"shovel-steel-*": { base: "item/tool/shovel-copper" }
+	},
+	heldTpIdleAnimation: "shovelidle",
+	heldRightReadyAnimation: "shovelready",
+	heldTpHitAnimation: "shoveldig",
+	heldTpUseAnimation: "interactStaticLong",
+	texturesByType: {
+		"@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick": {
+			"material": { base: "block/stone/rock/{material}1" },
+			
+		},
+		"@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": {
+			"material": { base: "block/stone/rock/{material}1" },
+			"handle": { base: "block/wood/debarked/{handle}" }
+		},
+		"*-stick": {
+			"material": { base: "block/metal/ingot/{material}" },
+			
+		},
+		"*": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"handle": { base: "block/wood/debarked/{handle}" }
+		},
+	},
+	miningspeedbytype: {
+		"shovel-chert-*": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-granite-*": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-peridotite-*": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-andesite-*": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-basalt-*": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-obsidian-*": {
+			"soil": 3,
+			"sand": 3,
+			"gravel": 2.2,
+			"snow": 2.2
+		},
+		"shovel-flint-*": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+		},
+		"shovel-copper-*": {
+			"soil": 4,
+			"sand": 4,
+			"gravel": 2.6,
+			"snow": 2.6
+		},
+		"shovel-bismuthbronze-*": {
+			"soil": 5,
+			"sand": 5,
+			"gravel": 3.2,
+			"snow": 3.2
+		},
+		"shovel-tinbronze-*": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-gold-*": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-silver-*": {
+			"soil": 5.4,
+			"sand": 5.4,
+			"gravel": 3.6,
+			"snow": 3.6
+		},
+		"shovel-blackbronze-*": {
+			"soil": 5.5,
+			"sand": 5.5,
+			"gravel": 3.7,
+			"snow": 3.7
+		},
+		"shovel-iron-*": {
+			"soil": 6,
+			"sand": 6,
+			"gravel": 4,
+			"snow": 4
+		},
+		"shovel-meteoriciron-*": {
+			"soil": 6.5,
+			"sand": 6.5,
+			"gravel": 4.2,
+			"snow": 4.2
+		},
+		"shovel-steel-*": {
+			"soil": 7,
+			"sand": 7,
+			"gravel": 4.4,
+			"snow": 4.4
+		}
+	},
+	attackpowerbytype: {
+		"shovel-chert-*": 0.75,
+		"shovel-granite-*": 0.75,
+		"shovel-andesite-*": 0.75,
+		"shovel-peridotite-*": 0.75,
+		"shovel-basalt-*": 0.75,
+		"shovel-obsidian-*": 1.25,
+
+		"shovel-flint-*": 1,
+		"shovel-copper-*": 1.25,
+		"shovel-gold-*": 1.5,
+		"shovel-silver-*": 1.5,
+		"shovel-bismuthbronze-*": 1.5,
+		"shovel-tinbronze-*": 1.75,
+		"shovel-blackbronze-*": 2,
+		"shovel-iron-*": 2.25,
+		"shovel-meteoriciron-*": 2.35,
+		"shovel-steel-*": 2.5
+	},
+	durabilitybytype: {
+		"@shovel-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)": 60, 
+		"@shovel-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)": 80,
+ 		"@shovel-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)": 90,
+
+		"@shovel-flint-(stick|kapok|redwood|pine|baldcypress|larch)": 90,
+		"@shovel-flint-(walnut|birch|oak)": 110,
+		"@shovel-flint-(maple|acacia|purpleheart|ebony)": 120,
+
+		"@shovel-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)": 100,
+		"@shovel-obsidian-(walnut|birch|oak)": 120,
+		"@shovel-obsidian-(maple|acacia|purpleheart|ebony)": 130,
+
+		"@shovel-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 200,
+		"@shovel-gold-(walnut|birch|oak)": 240,
+		"@shovel-gold-(maple|acacia|purpleheart|ebony)": 260,
+
+		"@shovel-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 200,
+		"@shovel-silver-(walnut|birch|oak)": 240,
+		"@shovel-silver-(maple|acacia|purpleheart|ebony)": 260,
+
+		"@shovel-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 400,
+		"@shovel-copper-(walnut|birch|oak)": 440,
+		"@shovel-copper-(maple|acacia|purpleheart|ebony)": 460,
+
+		"@shovel-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 600,
+		"@shovel-tinbronze-(walnut|birch|oak)": 660,
+		"@shovel-tinbronze-(maple|acacia|purpleheart|ebony)": 690,
+
+		"@shovel-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 650,
+		"@shovel-bismuthbronze-(walnut|birch|oak)": 710,
+		"@shovel-bismuthbronze-(maple|acacia|purpleheart|ebony)": 740,
+
+		"@shovel-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 700,
+		"@shovel-blackbronze-(walnut|birch|oak)": 760,
+		"@shovel-blackbronze-(maple|acacia|purpleheart|ebony)": 790,
+
+		"@shovel-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 1200,
+		"@shovel-iron-(walnut|birch|oak)": 1280,
+		"@shovel-iron-(maple|acacia|purpleheart|ebony)": 1320,
+
+		"@shovel-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 1400,
+		"@shovel-meteoriciron-(walnut|birch|oak)": 1480,
+		"@shovel-meteoriciron-(maple|acacia|purpleheart|ebony)": 1520,
+
+		"@shovel-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 3000,
+		"@shovel-steel-(walnut|birch|oak)": 3100,
+		"@shovel-steel-(maple|acacia|purpleheart|ebony)": 3150,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		"@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-*": {
+			rotation: { x: -115, y: -28, z: 139 },
+			origin: { x: 0.7, y: 0, z: 0.55 }
+		},
+		"*": {
+			rotation: { x: -115, y: -28, z: 139 },
+			origin: { x: 0.6, y: -0, z: 0.55 },
+			scale: 1.1
+		}
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.69, y: -0.29, z: -0.6 },
+		rotation: { x: 0, y: 0, z: -10 },
+		scale: 0.8
+	}
+}
