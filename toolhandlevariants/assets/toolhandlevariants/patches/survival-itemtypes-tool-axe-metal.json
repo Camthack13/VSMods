@@ -1,0 +1,1616 @@
+[
+  {
+    "op": "replace",
+    "path": "/allowedVariants/1",
+    "value": "axe-scrap-scrap-stick",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/2",
+    "value": "axe-bearded-ruined-stick",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/3",
+    "value": "axe-battle-ruined-stick",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/4",
+    "value": "axe-bardiche-ruined-stick",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/5",
+    "value": "axe-double-ruined-stick",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-blackbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-copper",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-gold",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-iron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-meteoriciron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-silver",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-steel",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-felling-tinbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/*-ruined-*",
+    "value": 4.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-bismuthbronze-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-copper-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-gold-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-iron-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-meteoriciron-*",
+    "value": 3.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-silver-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-steel-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-tinbronze-*",
+    "value": 2.75,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-scrap-scrap-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/axe-bardiche-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/axe-battle-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/axe-bearded-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/axe-double-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/*-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.33,
+        "z": -0.055
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/axe-bardiche-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.45,
+        "y": -0.1,
+        "z": -0.02
+      },
+      "rotation": {
+        "x": 26,
+        "y": 0,
+        "z": -87
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/axe-battle-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.45,
+        "y": -0.1,
+        "z": 0.22
+      },
+      "rotation": {
+        "x": 34,
+        "y": 0,
+        "z": -90
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/axe-bearded-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.2,
+        "z": -0.1435
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -94
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/axe-double-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.1,
+        "y": 0.14,
+        "z": -0.34
+      },
+      "rotation": {
+        "x": 26,
+        "y": 110,
+        "z": -87
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/onAntlerMountTransformByType/axe-bardiche-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/onAntlerMountTransformByType/axe-bearded-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/onAntlerMountTransformByType/axe-double-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/onAntlerMountTransformByType/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onAntlerMountTransformByType/axe-bardiche-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.36,
+        "y": 0.533,
+        "z": 0.32
+      },
+      "rotation": {
+        "x": -90,
+        "y": -32,
+        "z": -90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onAntlerMountTransformByType/axe-bearded-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.36,
+        "y": 0.533,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": -90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onAntlerMountTransformByType/axe-double-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.36,
+        "y": 0.533,
+        "z": 0.22
+      },
+      "rotation": {
+        "x": -90,
+        "y": 24,
+        "z": -90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onAntlerMountTransformByType/axe-scrap-scrap-*",
+    "value": {
+      "translation": {
+        "x": -0.37,
+        "y": 0.533,
+        "z": -0.18
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": -90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/axe-bardiche-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/axe-battle-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/axe-bearded-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/axe-double-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/*-scrap-*",
+    "value": {
+      "translation": {
+        "x": -0.2,
+        "y": 0.65,
+        "z": 0.1
+      },
+      "rotation": {
+        "x": 4,
+        "y": -3,
+        "z": -1
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/axe-bardiche-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.7,
+        "z": 0.2
+      },
+      "rotation": {
+        "x": 22,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/axe-battle-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.2,
+        "y": 0.7,
+        "z": 0.1
+      },
+      "rotation": {
+        "x": 12,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/axe-bearded-ruined-*\t",
+    "value": {
+      "translation": {
+        "x": -0.3,
+        "y": 0.7,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/axe-double-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.7,
+        "z": -0.2
+      },
+      "rotation": {
+        "x": -12,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/behaviors/0/properties/wallOffYByType/axe-bardiche-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/behaviors/0/properties/wallOffYByType/axe-double-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/0/properties/wallOffYByType/axe-bardiche-ruined-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/0/properties/wallOffYByType/axe-double-ruined-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/creativeinventory/clutterByType/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/clutterByType/*-ruined-*",
+    "value": [
+      "*"
+    ],
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-blackbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-copper",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-gold",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-iron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-meteoriciron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-silver",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-steel",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-felling-tinbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-(gold|silver)-(bone|walnut|birch|oak)",
+    "value": 165,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-(gold|silver)-(maple|acacia|purpleheart|ebony)",
+    "value": 185,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-(gold|silver)-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 125,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-bismuthbronze-(bone|walnut|birch|oak)",
+    "value": 560,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 590,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-bismuthbronze-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 500,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-blackbronze-(bone|walnut|birch|oak)",
+    "value": 660,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 690,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-blackbronze-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 600,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-copper-(bone|walnut|birch|oak)",
+    "value": 290,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 310,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-copper-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 250,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-iron-(bone|walnut|birch|oak)",
+    "value": 980,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1020,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-iron-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 900,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-meteoriciron-(bone|walnut|birch|oak)",
+    "value": 1280,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1320,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-meteoriciron-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 1200,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-steel-(bone|walnut|birch|oak)",
+    "value": 1900,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 1950,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-steel-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 1800,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-tinbronze-(bone|walnut|birch|oak)",
+    "value": 460,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 490,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-felling-tinbronze-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 400,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/*-ruined-*",
+    "value": 15,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/axe-scrap-scrap-*",
+    "value": 125,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/groundTransformByType/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/groundTransformByType/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.03,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.6
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": -0.1,
+        "z": 0.5
+      },
+      "scale": 3.6
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -65,
+        "y": -127,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.65,
+        "y": 0.1,
+        "z": 0.48
+      },
+      "scale": 1.85
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/*-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-blackbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-copper",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-gold",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-iron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-meteoriciron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-silver",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-steel",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-felling-tinbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/*-bismuthbronze-*",
+    "value": {
+      "wood": 5.8,
+      "plant": 3.5,
+      "leaves": 2.6
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-bismuthbronze-*",
+    "value": {
+      "wood": 5.8,
+      "plant": 3.5,
+      "leaves": 2.6
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-blackbronze-*",
+    "value": {
+      "wood": 6.6,
+      "plant": 4,
+      "leaves": 3.1
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-copper-*",
+    "value": {
+      "wood": 5.2,
+      "plant": 2.8,
+      "leaves": 2.4
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-gold-*",
+    "value": {
+      "wood": 4.5,
+      "plant": 3.3,
+      "leaves": 3
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-iron-*",
+    "value": {
+      "wood": 8.4,
+      "plant": 5,
+      "leaves": 3.2
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-meteoriciron-*",
+    "value": {
+      "wood": 9.6,
+      "plant": 5.5,
+      "leaves": 3.6
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-silver-*",
+    "value": {
+      "wood": 4.5,
+      "plant": 3.3,
+      "leaves": 3
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-steel-*",
+    "value": {
+      "wood": 11,
+      "plant": 6,
+      "leaves": 4
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-tinbronze-*",
+    "value": {
+      "wood": 6.3,
+      "plant": 3.8,
+      "leaves": 3
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-scrap-scrap-*",
+    "value": {
+      "wood": 4,
+      "plant": 2.6,
+      "leaves": 2.2
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-blackbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-copper",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-gold",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-iron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-meteoriciron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-silver",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-steel",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-felling-tinbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-ruined-stick",
+    "value": {
+      "base": "game:item/tool/axe/ruined/{type}"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-bismuthbronze-*",
+    "value": {
+      "base": "game:item/tool/axe/copper"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-blackbronze-*",
+    "value": {
+      "base": "game:item/tool/axe/copper"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-copper-*",
+    "value": {
+      "base": "game:item/tool/axe/copper"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-gold-*",
+    "value": {
+      "base": "game:item/tool/axe/iron"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-iron-*",
+    "value": {
+      "base": "game:item/tool/axe/iron"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-meteoriciron-*",
+    "value": {
+      "base": "game:item/tool/axe/iron"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-silver-*",
+    "value": {
+      "base": "game:item/tool/axe/iron"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-steel-*",
+    "value": {
+      "base": "game:item/tool/axe/iron"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-felling-tinbronze-*",
+    "value": {
+      "base": "game:item/tool/axe/copper"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/axe-scrap-scrap-stick",
+    "value": {
+      "base": "game:item/tool/axe/scrap"
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/0",
+    "value": "axe-felling-scrap-*",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/1",
+    "value": "axe-felling-ruined-*",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/axe-felling-*",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@axe-felling-.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/axe-felling-*-bone",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/axe-felling-*-stick",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/axe-scrap-scrap-*",
+    "value": {},
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-bismuthbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-blackbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-copper",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-gold",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-iron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-meteoriciron",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-silver",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-steel",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-tinbronze",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-bismuthbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-copper-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-gold-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-iron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-meteoriciron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-ruined-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-scrap-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-silver-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-steel-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-tinbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/*-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/*-scrap",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/axe-bardiche-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/axe-battle-ruined",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.89,
+        "y": -0.5,
+        "z": -0.03
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -2
+      },
+      "scale": 0.95
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-scrap-*",
+    "value": {
+      "translation": {
+        "x": -0.65,
+        "y": -0.5,
+        "z": -0.05
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -10
+      },
+      "scale": 0.95
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/axe-bardiche-ruined-*",
+    "value": {
+      "translation": {
+        "x": -1.09,
+        "y": -0.5,
+        "z": -0.03
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -2
+      },
+      "scale": 0.95
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/axe-battle-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.69,
+        "y": -0.5,
+        "z": -0.03
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -2
+      },
+      "scale": 0.95
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/2",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "bone",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server"
+  }
+]

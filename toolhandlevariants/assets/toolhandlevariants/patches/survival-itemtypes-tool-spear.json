@@ -1,0 +1,2411 @@
+[
+  {
+    "op": "replace",
+    "path": "/allowedVariants",
+    "value": [
+      "spear-generic-orategold-stick",
+      "spear-generic-ornatesilver-stick",
+      "spear-generic-*",
+      "spear-scrap-scrap-stick",
+      "spear-boar-ruined-stick",
+      "spear-voulge-ruined-stick",
+      "spear-fork-ruined-stick",
+      "spear-ranseur-ruined-stick"
+    ],
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-andesite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-basalt",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-bismuthbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-blackbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-chert",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-copper",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-flint",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-granite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-iron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-meteoriciron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-obsidian",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-peridotite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-steel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-generic-tinbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/*-ruined-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-andesite-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-basalt-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-bismuthbronze-*",
+    "value": 3.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-blackbronze-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-chert-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-copper-*",
+    "value": 2.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-erel-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-flint-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-granite-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-hacking-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-iron-*",
+    "value": 4.2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-meteoriciron-*",
+    "value": 4.3,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-obsidian-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-ornategold-*",
+    "value": 4.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-ornatesilver-*",
+    "value": 4.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-peridotite-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-steel-*",
+    "value": 4.4,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-tinbronze-*",
+    "value": 3.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/spear-scrap-scrap-*",
+    "value": 2.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-bismuthbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-blackbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-copper",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-flint",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-iron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-meteoriciron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-obsidian",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-steel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageByType/*-tinbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-bismuthbronze-*",
+    "value": 5.75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-blackbronze-*",
+    "value": 6.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-copper-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-erel-*",
+    "value": 5.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-flint-*",
+    "value": 4.0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-hacking-*",
+    "value": 5.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-iron-*",
+    "value": 6.8,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-meteoriciron-*",
+    "value": 6.9,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-obsidian-*",
+    "value": 4.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-ornategold-*",
+    "value": 7.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-ornatesilver-*",
+    "value": 7.0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-ruined-*",
+    "value": 6.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-scrap-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-steel-*",
+    "value": 7.0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageByType/*-tinbronze-*",
+    "value": 6.0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-andesite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-basalt",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-bismuthbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-blackbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-chert",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-copper",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-flint",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-granite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-iron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-meteoriciron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-obsidian",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-peridotite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-steel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/damageTierByType/*-tinbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-andesite-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-basalt-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-bismuthbronze-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-blackbronze-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-chert-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-copper-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-erel-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-flint-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-granite-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-hacking-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-iron-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-meteoriciron-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-obsidian-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-ornategold-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-ornatesilver-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-peridotite-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-ruined-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-scrap-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-steel-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-tinbronze-*",
+    "value": 0,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-boar-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-fork-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-ornate*",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-ranseur-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/spear-voulge-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/@spear-generic-(blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "translation": {
+        "x": -0.39,
+        "y": 0.78,
+        "z": 0.2
+      },
+      "rotation": {
+        "x": 16,
+        "y": 1,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze)-.*",
+    "value": {
+      "translation": {
+        "x": -0.39,
+        "y": 0.78,
+        "z": 0.235
+      },
+      "rotation": {
+        "x": 16,
+        "y": 1,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-boar-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.65,
+        "z": 0.61
+      },
+      "rotation": {
+        "x": 16,
+        "y": 90,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-fork-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.25,
+        "y": 0.65,
+        "z": 0.11
+      },
+      "rotation": {
+        "x": 16,
+        "y": 0,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-erel-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.88,
+        "z": 0.79
+      },
+      "rotation": {
+        "x": 16,
+        "y": 90,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-hacking-*",
+    "value": {
+      "translation": {
+        "x": -0.45,
+        "y": 0.35,
+        "z": 0.2
+      },
+      "rotation": {
+        "x": 16,
+        "y": 1,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-generic-ornate-*",
+    "value": {
+      "translation": {
+        "x": -0.39,
+        "y": 0.72,
+        "z": 0.25
+      },
+      "rotation": {
+        "x": 16,
+        "y": 1,
+        "z": 90
+      },
+      "scale": 0.81
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-ranseur-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.93,
+        "z": -0.11
+      },
+      "rotation": {
+        "x": 16,
+        "y": -90,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-scrap-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.25,
+        "z": 0.546
+      },
+      "rotation": {
+        "x": 16,
+        "y": 90,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/spear-voulge-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.24,
+        "y": 0.65,
+        "z": 0.516
+      },
+      "rotation": {
+        "x": 16,
+        "y": 130,
+        "z": 90
+      },
+      "scale": 0.85
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/hackingByType/*-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/hackingByType/*-hacking-*",
+    "value": true,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/spearEntityCodeByType/spear-generic-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/spearEntityCodeByType/spear-generic-erel-*",
+    "value": "erelprojectile-large-usable",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/spearEntityCodeByType/*",
+    "value": "spear-{type}-{material}-{handle}",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/texturesByType/axe-felling-*",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/texturesByType/axe-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-stick",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-boar-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-fork-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-generic-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-ranseur-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/spear-voulge-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "rotation": {
+        "x": 90,
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": 0.31,
+        "y": 0.04,
+        "z": 0.7
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-boar-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.45,
+        "y": 0.05,
+        "z": 0.7
+      },
+      "rotation": {
+        "x": 89,
+        "y": 1,
+        "z": -1
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-fork-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.95,
+        "y": -0.27,
+        "z": 0.6
+      },
+      "rotation": {
+        "x": 125,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-generic-erel-*",
+    "value": {
+      "translation": {
+        "x": 0.9,
+        "y": 0.7,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-generic-hacking-*",
+    "value": {
+      "rotation": {
+        "x": 90,
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": -0.19,
+        "y": 0.04,
+        "z": 0.7
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-ranseur-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.56,
+        "y": 0.05,
+        "z": 0.6
+      },
+      "rotation": {
+        "x": 89,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-scrap-scrap-*",
+    "value": {
+      "rotation": {
+        "x": 0,
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": -0.35,
+        "y": 0.7,
+        "z": 0
+      },
+      "scale": 1.36
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/spear-voulge-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.3,
+        "y": 0.4,
+        "z": 0.7
+      },
+      "rotation": {
+        "x": 60,
+        "y": 1,
+        "z": -1
+      },
+      "scale": 1.37
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/behaviors/0/properties/wallOffYByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/0/properties/wallOffYByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/classByType/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/classByType/spear-generic-hacking-*",
+    "value": "ItemHackingSpear",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/*-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-andesite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-basalt",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-bismuthbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-blackbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-chert",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-copper",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-flint",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-granite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-iron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-meteoriciron",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-obsidian",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-peridotite",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-steel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-generic-tinbronze",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)",
+    "value": 46,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 16,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)",
+    "value": 36,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 350,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 260,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-bismuthbronze-(walnut|birch|oak)",
+    "value": 320,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 390,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 300,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-blackbronze-(walnut|birch|oak)",
+    "value": 360,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 200,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 140,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-copper-(walnut|birch|oak)",
+    "value": 180,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-flint-(maple|acacia|purpleheart|ebony)",
+    "value": 62,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-flint-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 32,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-flint-(walnut|birch|oak)",
+    "value": 52,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 520,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 400,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-iron-(walnut|birch|oak)",
+    "value": 480,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 570,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 450,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-meteoriciron-(walnut|birch|oak)",
+    "value": 530,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-obsidian-(maple|acacia|purpleheart|ebony)",
+    "value": 75,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 45,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-obsidian-(walnut|birch|oak)",
+    "value": 65,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 850,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 700,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-steel-(walnut|birch|oak)",
+    "value": 800,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 310,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 220,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@spear-generic-tinbronze-(walnut|birch|oak)",
+    "value": 280,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/*-erel-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/*-ruined-*",
+    "value": 15,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/spear-generic-hacking-*",
+    "value": 250,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/spear-generic-ornategold-*",
+    "value": 320,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/spear-generic-ornatesilver-*",
+    "value": 320,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/spear-scrap-scrap-*",
+    "value": 80,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/groundTransformByType/spear-fork-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/groundTransformByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/groundTransformByType/spear-voulge-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/spear-fork-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.05,
+        "z": 0
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.4
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/spear-scrap-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.05,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.4
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/spear-voulge-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.05,
+        "z": 0
+      },
+      "rotation": {
+        "x": 68,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3.4
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/*-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-boar-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-fork-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-generic-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-generic-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-ranseur-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/spear-voulge-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "rotation": {
+        "x": 33,
+        "y": 0,
+        "z": -127
+      },
+      "origin": {
+        "x": 1.39,
+        "y": 0.05,
+        "z": 0.52
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-erel-*",
+    "value": {
+      "translation": {
+        "x": -0.1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": 124,
+        "z": 6
+      },
+      "origin": {
+        "x": 0.39,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-boar-ruined-*",
+    "value": {
+      "rotation": {
+        "x": 2,
+        "y": 157,
+        "z": -46
+      },
+      "origin": {
+        "x": 1.39,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-fork-ruined-*",
+    "value": {
+      "rotation": {
+        "x": -17,
+        "y": 144,
+        "z": -37
+      },
+      "origin": {
+        "x": 1.39,
+        "y": 0.05,
+        "z": 0.5
+      },
+      "scale": 2
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-generic-hacking-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 23,
+        "y": -180,
+        "z": -52
+      },
+      "origin": {
+        "x": 1.43,
+        "y": 0,
+        "z": 0.52
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-generic-ornategold-*",
+    "value": {
+      "rotation": {
+        "x": -16,
+        "y": -2,
+        "z": -134
+      },
+      "origin": {
+        "x": 1.47,
+        "y": 0.05,
+        "z": 0.5
+      },
+      "scale": 3.09
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-generic-ornatesilver-*",
+    "value": {
+      "rotation": {
+        "x": -16,
+        "y": -2,
+        "z": -134
+      },
+      "origin": {
+        "x": 1.47,
+        "y": 0.05,
+        "z": 0.5
+      },
+      "scale": 3.09
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-ranseur-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -175,
+        "y": 140,
+        "z": 38
+      },
+      "origin": {
+        "x": 1.19,
+        "y": 0,
+        "z": 0.6
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-scrap-scrap-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": 124,
+        "z": 6
+      },
+      "origin": {
+        "x": 1.54,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/spear-voulge-ruined-*",
+    "value": {
+      "rotation": {
+        "x": -180,
+        "y": 128,
+        "z": 38
+      },
+      "origin": {
+        "x": 1.29,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.26
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/spear-generic-erel",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/spear-generic-hacking",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/spear-generic-ornategold",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/spear-generic-ornatesilver",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "base": "item/tool/spear/stone"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "base": "item/tool/spear/metal-{material}"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-ruined-*",
+    "value": {
+      "base": "item/tool/spear/ruined/{type}"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/spear-generic-erel-*",
+    "value": {
+      "base": "entity/nonliving/projectile/erel-large-usable"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/spear-generic-hacking-*",
+    "value": {
+      "base": "item/tool/spear/hacking"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/spear-generic-ornategold-*",
+    "value": {
+      "base": "item/tool/spear/ornategold"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/spear-generic-ornatesilver-*",
+    "value": {
+      "base": "item/tool/spear/ornatesilver"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/spear-scrap-scrap-*",
+    "value": {
+      "base": "item/tool/spear/scrap"
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/0",
+    "value": "spear-generic-ruined-*",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/1",
+    "value": "spear-generic-scrap-*",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/spear-generic-flint",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-stick",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/@spear-generic-(ornategold|ornatesilver)",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/*-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/spear-scrap-scrap",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/spear-voulge-ruined",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)-.*",
+    "value": {
+      "translation": {
+        "x": -1.29,
+        "y": 0.03,
+        "z": -0.57
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/@spear-generic-(ornategold|ornatesilver)-.*",
+    "value": {
+      "translation": {
+        "x": -1.04,
+        "y": 0.02,
+        "z": -0.57
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ruined-*",
+    "value": {
+      "translation": {
+        "x": -1.24,
+        "y": 0.03,
+        "z": -0.61
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/spear-scrap-scrap-*",
+    "value": {
+      "translation": {
+        "x": -1.14,
+        "y": 0.01,
+        "z": -0.6
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/spear-voulge-ruined-*",
+    "value": {
+      "translation": {
+        "x": -1.24,
+        "y": 0.03,
+        "z": -0.61
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.8
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/2",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server"
+  }
+]

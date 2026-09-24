@@ -1,0 +1,1092 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-bismuthbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-blackbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-copper",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-gold",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-iron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-metoriciron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-silver",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-steel",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hoe-tinbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": 1,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-bismuthbronze-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-blackbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-copper-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-gold-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-iron-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-meteoriciron-*",
+    "value": 2.3,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-silver-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-steel-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-tinbronze-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.04,
+        "z": -0.25
+      },
+      "rotation": {
+        "x": 23,
+        "y": 87,
+        "z": -90
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "rotation": {
+        "y": 1,
+        "z": -1
+      },
+      "translation": {
+        "x": -0.25,
+        "y": 0.6
+      },
+      "scale": 1.25
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-andesite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-basalt",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-bismuthbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-blackbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-chert",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-copper",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-flint",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-gold",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-granite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-iron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-meteoriciron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-obsidian",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-peridotite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-silver",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-steel",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hoe-tinbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)",
+    "value": 60,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 30,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)",
+    "value": 50,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 390,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 300,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-bismuthbronze-(walnut|birch|oak)",
+    "value": 360,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 420,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 330,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-blackbronze-(walnut|birch|oak)",
+    "value": 390,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 260,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 200,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-copper-(walnut|birch|oak)",
+    "value": 240,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-flint-(maple|acacia|purpleheart|ebony)",
+    "value": 70,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-flint-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 40,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-flint-(walnut|birch|oak)",
+    "value": 60,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 150,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 90,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-gold-(walnut|birch|oak)",
+    "value": 130,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 620,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 500,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-iron-(walnut|birch|oak)",
+    "value": 580,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 720,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 600,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-meteoriciron-(walnut|birch|oak)",
+    "value": 680,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-obsidian-(maple|acacia|purpleheart|ebony)",
+    "value": 80,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 50,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-obsidian-(walnut|birch|oak)",
+    "value": 70,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 150,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 90,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-silver-(walnut|birch|oak)",
+    "value": 130,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 1400,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1250,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-steel-(walnut|birch|oak)",
+    "value": 1350,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 370,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 280,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hoe-tinbronze-(walnut|birch|oak)",
+    "value": 340,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "rotate": false,
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -56,
+        "y": -127,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.35,
+        "y": 0,
+        "z": 0.55
+      },
+      "scale": 1.43
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/@hoe-(granite|andesite|basalt|peridotite)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-bismuthbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-blackbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-copper",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-flint",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-gold",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-iron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-meteoriciron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-obsidian",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-silver",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-steel",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/hoe-tinbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/@hoe-(granite|andesite|basalt|peridotite)-.*",
+    "value": {
+      "soil": 1.8
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-bismuthbronze-*",
+    "value": {
+      "soil": 3.6
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-blackbronze-*",
+    "value": {
+      "soil": 4.2
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-copper-*",
+    "value": {
+      "soil": 3.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-flint-*",
+    "value": {
+      "soil": 2.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-gold-*",
+    "value": {
+      "soil": 4.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-iron-*",
+    "value": {
+      "soil": 4.5
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-meteoriciron-*",
+    "value": {
+      "soil": 4.75
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-obsidian-*",
+    "value": {
+      "soil": 2.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-silver-*",
+    "value": {
+      "soil": 4.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-steel-*",
+    "value": {
+      "soil": 5.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-tinbronze-*",
+    "value": {
+      "soil": 4.0
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-andesite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-basalt",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-bismuthbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-blackbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-chert",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-copper",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-flint",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-gold",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-granite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-iron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-meteoriciron",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-obsidian",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-peridotite",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-silver",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-steel",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-tinbronze",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-andesite-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-basalt-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-bismuthbronze-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-blackbronze-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-chert-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-copper-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-flint-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-gold-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-granite-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-iron-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-meteoriciron-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-obsidian-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-peridotite-*",
+    "value": {
+      "base": "item/tool/hoe-stone"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-silver-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-steel-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-tinbronze-*",
+    "value": {
+      "base": "item/tool/hoe-copper"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-flint",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/handle",
+    "value": {
+      "base": "block/wood/debarked/{handle}"
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType/*/material/base",
+    "value": "block/metal/ingot/{material}",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "translation": {
+        "x": -1,
+        "y": -0.5,
+        "z": -0.08
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server"
+  }
+]

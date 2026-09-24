@@ -1,0 +1,200 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "T\tS",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "bladehead-falx-*",
+            "name": "metal",
+            "allowedVariants": [
+              "copper",
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "iron",
+              "meteoriciron",
+              "steel"
+            ]
+          },
+          "S": {
+            "type": "item",
+            "code": "stick"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "blade-falx-{metal}-stick",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T\tH",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "bladehead-falx-*",
+            "name": "metal",
+            "allowedVariants": [
+              "copper",
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "iron",
+              "meteoriciron",
+              "steel"
+            ]
+          },
+          "H": {
+            "type": "item",
+            "code": "plank-*",
+            "name": "handle",
+            "allowedVariants": [
+              "kapok",
+              "redwood",
+              "pine",
+              "baldcypress",
+              "larch",
+              "walnut",
+              "birch",
+              "oak",
+              "maple",
+              "acacia",
+              "purpleheart",
+              "ebony"
+            ]
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "blade-falx-{metal}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "TC,S_",
+        "requiresTrait": "merciless",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "bladehead-short-iron"
+          },
+          "S": {
+            "type": "item",
+            "code": "stick"
+          },
+          "C": {
+            "type": "item",
+            "code": "charcoal"
+          }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "blade-blackguard-iron",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T,P,S",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "bladehead-falx-steel"
+          },
+          "S": {
+            "type": "item",
+            "code": "stick"
+          },
+          "P": {
+            "type": "item",
+            "code": "metalplate-*",
+            "name": "plate",
+            "allowedVariants": [
+              "gold",
+              "silver"
+            ],
+            "quantity": 1
+          }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+          "type": "item",
+          "code": "blade-falx-{plate}-stick",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T,P,S",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "bladehead-falx-steel"
+          },
+          "S": {
+            "type": "item",
+            "code": "plank-*",
+            "name": "handle",
+            "allowedVariants": [
+              "kapok",
+              "redwood",
+              "pine",
+              "baldcypress",
+              "larch",
+              "walnut",
+              "birch",
+              "oak",
+              "maple",
+              "acacia",
+              "purpleheart",
+              "ebony"
+            ]
+          },
+          "P": {
+            "type": "item",
+            "code": "metalplate-*",
+            "name": "plate",
+            "allowedVariants": [
+              "gold",
+              "silver"
+            ],
+            "quantity": 1
+          }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+          "type": "item",
+          "code": "blade-falx-{plate}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/blade.json",
+    "side": "Server"
+  }
+]

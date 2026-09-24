@@ -1,0 +1,14 @@
+{
+  "Type": "Content",
+  "Name": "Tool Handle Variants",
+  "Version": "1.0.0",
+  "Description": "Adds variantGroup 'handle' to tools with wooden handles, so handles can be made of different wood types.",
+  "ModID": "toolhandlevariants",
+  "Authors": [
+    "Camron Thackeray"
+  ],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

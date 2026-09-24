@@ -1,0 +1,735 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-bismuthbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-blackbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-copper",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-gold",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-iron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-meteoriciron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-silver",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-steel",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/pickaxe-tinbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-bismuthbronze-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-blackbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-copper-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-gold-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-iron-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-meteoriciron-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-silver-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-steel-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/pickaxe-tinbronze-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-bismuthbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-blackbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-copper",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-gold",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-iron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-meteoriciron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-silver",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-steel",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/pickaxe-tinbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-bismuthbronze-(bone|walnut|birch|oak)",
+    "value": 560,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 590,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 500,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-blackbronze-(bone|walnut|birch|oak)",
+    "value": 610,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 640,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 550,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-copper-(bone|walnut|birch|oak)",
+    "value": 340,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 360,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 300,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-gold-(bone|walnut|birch|oak)",
+    "value": 190,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 210,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 150,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-iron-(bone|walnut|birch|oak)",
+    "value": 1080,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1120,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1000,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-meteoriciron-(bone|walnut|birch|oak)",
+    "value": 1380,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1420,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1300,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-silver-(bone|walnut|birch|oak)",
+    "value": 215,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 235,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 175,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-steel-(bone|walnut|birch|oak)",
+    "value": 2600,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 2650,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 2500,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-tinbronze-(bone|walnut|birch|oak)",
+    "value": 490,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 540,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@pickaxe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 450,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-bismuthbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-blackbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-copper",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-gold",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-iron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-meteoriciron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-silver",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-steel",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/pickaxe-tinbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-bismuthbronze-*",
+    "value": {
+      "ceramic": 2,
+      "stone": 5.5,
+      "ore": 5.5,
+      "metal": 5.5,
+      "ice": 2.2
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-blackbronze-*",
+    "value": {
+      "ceramic": 2.5,
+      "stone": 6.5,
+      "ore": 6.5,
+      "metal": 6.5,
+      "ice": 2.8
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-copper-*",
+    "value": {
+      "ceramic": 1.5,
+      "stone": 4,
+      "ore": 4,
+      "metal": 4,
+      "ice": 1.75
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-gold-*",
+    "value": {
+      "ceramic": 1.75,
+      "stone": 5,
+      "ore": 5,
+      "metal": 5,
+      "ice": 2
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-iron-*",
+    "value": {
+      "ceramic": 2.75,
+      "stone": 7.5,
+      "ore": 7.5,
+      "metal": 7.5,
+      "ice": 3.5
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-meteoriciron-*",
+    "value": {
+      "ceramic": 3,
+      "stone": 8,
+      "ore": 8,
+      "metal": 8,
+      "ice": 3.75
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-silver-*",
+    "value": {
+      "ceramic": 1.75,
+      "stone": 5,
+      "ore": 5,
+      "metal": 5,
+      "ice": 2
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-steel-*",
+    "value": {
+      "ceramic": 3.25,
+      "stone": 9,
+      "ore": 9,
+      "metal": 9,
+      "ice": 4.25
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-tinbronze-*",
+    "value": {
+      "ceramic": 2.25,
+      "stone": 6,
+      "ore": 6,
+      "metal": 6,
+      "ice": 2.3
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/@pickaxe-(iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/@pickaxe-(iron|meteoriciron|steel)-*",
+    "value": {
+      "base": "item/tool/pickaxe-iron"
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bone",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      }
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-bismuthbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-blackbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-copper",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-gold",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-iron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-meteoriciron",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-silver",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-steel",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-tinbronze",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-bismuthbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-copper-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-gold-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-iron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-meteoriciron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-silver-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-steel-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-tinbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "bone",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-bismuthbronze",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-blackbronze",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-copper",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-gold",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-iron",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-meteoriciron",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-silver",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-steel",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/scythe-tinbronze",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 840,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 750,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-bismuthbronze-(walnut|birch|oak)",
+    "value": 810,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 990,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 900,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-blackbronze-(walnut|birch|oak)",
+    "value": 960,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 510,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 450,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-copper-(walnut|birch|oak)",
+    "value": 490,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 75,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 15,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-gold-(walnut|birch|oak)",
+    "value": 55,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1470,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1350,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-iron-(walnut|birch|oak)",
+    "value": 1430,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1920,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1800,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-meteoriciron-(walnut|birch|oak)",
+    "value": 1880,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 247,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 187,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-silver-(walnut|birch|oak)",
+    "value": 227,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 3550,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 3400,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-steel-(walnut|birch|oak)",
+    "value": 3500,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 690,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 600,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@scythe-tinbronze-(walnut|birch|oak)",
+    "value": 660,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      }
+    },
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/handle",
+    "value": {
+      "base": "block/wood/debarked/{handle}"
+    },
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server"
+  }
+]

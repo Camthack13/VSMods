@@ -1,0 +1,708 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-bismuthbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-blackbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-copper",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-gold",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-iron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-meteoriciron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-silver",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-steel",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/prospectingpick-tinbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-bismuthbronze-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-blackbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-copper-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-gold-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-iron-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-meteoriciron-*",
+    "value": 2.35,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-silver-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-steel-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-tinbronze-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-bismuthbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-blackbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-copper",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-gold",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-iron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-meteoriciron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-silver",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-steel",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/prospectingpick-tinbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-bismuthbronze-(bone|walnut|birch|oak)",
+    "value": 360,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 390,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 300,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-blackbronze-(bone|walnut|birch|oak)",
+    "value": 410,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 440,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 350,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-copper-(bone|walnut|birch|oak)",
+    "value": 190,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 210,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 150,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-gold-(bone|walnut|birch|oak)",
+    "value": 100,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 120,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 60,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-iron-(bone|walnut|birch|oak)",
+    "value": 730,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 770,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 650,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-meteoriciron-(bone|walnut|birch|oak)",
+    "value": 980,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1020,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 900,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-silver-(bone|walnut|birch|oak)",
+    "value": 120,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 140,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 80,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-steel-(bone|walnut|birch|oak)",
+    "value": 1725,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 1775,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1625,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-tinbronze-(bone|walnut|birch|oak)",
+    "value": 310,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 340,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@prospectingpick-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 250,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-bismuthbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-blackbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-copper",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-gold",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-iron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-meteoriciron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-silver",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-steel",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/prospectingpick-tinbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-bismuthbronze-*",
+    "value": {
+      "stone": 3,
+      "ore": 3
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-blackbronze-*",
+    "value": {
+      "stone": 3.5,
+      "ore": 3.5
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-copper-*",
+    "value": {
+      "stone": 2.5,
+      "ore": 2.5
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-gold-*",
+    "value": {
+      "stone": 2.7,
+      "ore": 2.7
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-iron-*",
+    "value": {
+      "stone": 4.5,
+      "ore": 4.5,
+      "metal": 4.5
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-meteoriciron-*",
+    "value": {
+      "stone": 4.75,
+      "ore": 4.75,
+      "metal": 4.75
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-silver-*",
+    "value": {
+      "stone": 2.7,
+      "ore": 2.7
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-steel-*",
+    "value": {
+      "stone": 5.5,
+      "ore": 5.5
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-tinbronze-*",
+    "value": {
+      "stone": 3.3,
+      "ore": 3.3
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bone",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      }
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-bismuthbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-blackbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-copper",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-gold",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-iron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-meteoriciron",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-silver",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-steel",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-stone",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-tinbronze",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-bismuthbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-copper-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-gold-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-iron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-meteoriciron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-silver-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-steel-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-stone-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-tinbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "bone",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server"
+  }
+]

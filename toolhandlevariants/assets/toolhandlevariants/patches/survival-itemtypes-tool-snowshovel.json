@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+        "oak": {
+          "base": "block/wood/debarked/{material}"
+        },
+        "oak1": {
+          "base": "block/wood/planks/{material}1"
+        }
+      }
+    },
+    "file": "game:itemtypes/tool/snowshovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "kapok",
+      "redwood",
+      "pine",
+      "baldcypress",
+      "larch",
+      "walnut",
+      "birch",
+      "oak",
+      "maple",
+      "acacia",
+      "purpleheart",
+      "ebony"
+    ],
+    "file": "game:itemtypes/tool/snowshovel.json",
+    "side": "Server"
+  }
+]

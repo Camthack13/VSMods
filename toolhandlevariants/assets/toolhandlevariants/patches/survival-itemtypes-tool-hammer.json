@@ -1,0 +1,571 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-bismuthbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-blackbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-copper",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-gold",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-iron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-meteoriciron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-silver",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-steel",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-stone",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/hammer-tinbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-bismuthbronze-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-blackbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-copper-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-gold-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-iron-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-meteoriciron-*",
+    "value": 2.35,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-silver-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-steel-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-stone-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-tinbronze-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-bismuthbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-blackbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-copper",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-gold",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-iron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-meteoriciron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-silver",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-steel",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-stone",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/hammer-tinbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-bismuthbronze-(bone|walnut|birch|oak)",
+    "value": 960,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 990,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 900,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-blackbronze-(bone|walnut|birch|oak)",
+    "value": 1160,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 1190,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1100,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-copper-(bone|walnut|birch|oak)",
+    "value": 540,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 560,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 500,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-gold-(bone|walnut|birch|oak)",
+    "value": 290,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 310,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 250,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-iron-(bone|walnut|birch|oak)",
+    "value": 1880,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1920,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1800,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-meteoriciron-(bone|walnut|birch|oak)",
+    "value": 2180,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 2220,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 2100,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-silver-(bone|walnut|birch|oak)",
+    "value": 290,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 310,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 250,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-steel-(bone|walnut|birch|oak)",
+    "value": 4600,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 4650,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 4500,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-tinbronze-(bone|walnut|birch|oak)",
+    "value": 810,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 840,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@hammer-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 750,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "wood": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bone",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "wood": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "metal": {
+        "base": "block/metal/ingot/{metal}"
+      },
+      "wood": {
+        "base": "item/tool/handle"
+      }
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-bismuthbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-blackbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-copper",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-gold",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-iron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-meteoriciron",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-silver",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-steel",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tooltierbytype/*-tinbronze",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-bismuthbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-copper-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-gold-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-iron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-meteoriciron-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-silver-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-steel-*",
+    "value": 5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tooltierbytype/*-tinbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "bone",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server"
+  }
+]

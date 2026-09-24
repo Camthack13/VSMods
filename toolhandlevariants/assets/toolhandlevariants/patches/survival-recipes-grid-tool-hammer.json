@@ -1,0 +1,78 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "T\tH",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "hammerhead-*",
+            "name": "metal"
+          },
+          "H": {
+            "type": "item",
+            "code": "*",
+            "allowedVariants": [
+              "stick",
+              "bone"
+            ],
+            "name": "handle"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "hammer-{metal}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T\tH",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "hammerhead-*",
+            "name": "metal"
+          },
+          "H": {
+            "type": "item",
+            "code": "plank-*",
+            "allowedVariants": [
+              "kapok",
+              "redwood",
+              "pine",
+              "baldcypress",
+              "larch",
+              "walnut",
+              "birch",
+              "oak",
+              "maple",
+              "acacia",
+              "purpleheart",
+              "ebony"
+            ],
+            "name": "handle"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "hammer-{metal}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/hammer.json",
+    "side": "Server"
+  }
+]

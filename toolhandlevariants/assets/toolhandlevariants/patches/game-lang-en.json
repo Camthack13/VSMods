@@ -1,0 +1,1777 @@
+[
+  {
+    "op": "remove",
+    "path": "/item-axe-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-bone-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-felling-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-axe-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-blade-falx-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hammer-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-hoe-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-baselard-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-dagger-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-boneandesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-bonebasalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-bonechert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-boneflint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-bonegranite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-boneobsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-boneperidotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-metoericiron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-generic-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-khanjar-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-knife-stiletto-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-pickaxe-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-prospectingpick-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-saw-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-scythe-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-bone-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-gold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-silver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-shovel-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-snowshovel-oak",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-boar-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-fork-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-andesite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-basalt",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-bismuthbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-blackbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-chert",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-copper",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-erel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-flint",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-granite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-hacking",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-iron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-meteoriciron",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-obsidian",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-ornategold",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-ornatesilver",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-peridotite",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-steel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-generic-tinbronze",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-ranseur-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-scrap-scrap",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/item-spear-voulge-ruined",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/itemdesc-spear-generic-erel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "remove",
+    "path": "/itemdesc-spear-generic-hacking",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-andesite-*",
+    "value": "Andesite axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-basalt-*",
+    "value": "Basalt axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-chert-*",
+    "value": "Chert axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-bismuthbronze-*",
+    "value": "Bismuth bronze axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-blackbronze-*",
+    "value": "Black bronze axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-copper-*",
+    "value": "Copper axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-gold-*",
+    "value": "Golden axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-iron-*",
+    "value": "Iron axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-meteoriciron-*",
+    "value": "Meteoric iron axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-silver-*",
+    "value": "Silver axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-steel-*",
+    "value": "Steel axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-felling-tinbronze-*",
+    "value": "Tin bronze axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-flint-*",
+    "value": "Flint axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-granite-*",
+    "value": "Granite axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-obsidian-*",
+    "value": "Obsidian axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-axe-peridotite-*",
+    "value": "Peridotite axe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-bismuthbronze-*",
+    "value": "Bismuth bronze falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-blackbronze-*",
+    "value": "Black bronze falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-copper-*",
+    "value": "Copper falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-gold-*",
+    "value": "Golden falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-iron-*",
+    "value": "Iron falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-meteoriciron-*",
+    "value": "Meteoric iron falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-silver-*",
+    "value": "Silver falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-steel-*",
+    "value": "Steel falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-blade-falx-tinbronze-*",
+    "value": "Tin bronze falx",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-bismuthbronze-*",
+    "value": "Bismuth bronze hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-blackbronze-*",
+    "value": "Black bronze hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-copper-*",
+    "value": "Copper hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-gold-*",
+    "value": "Golden hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-iron-*",
+    "value": "Iron hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-meteoriciron-*",
+    "value": "Meteoric iron hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-silver-*",
+    "value": "Silver hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-steel-*",
+    "value": "Steel hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hammer-tinbronze-*",
+    "value": "Tin bronze hammer",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-andesite-*",
+    "value": "Andesite hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-basalt-*",
+    "value": "Basalt hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-bismuthbronze-*",
+    "value": "Bismuth bronze hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-blackbronze-*",
+    "value": "Black bronze hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-chert-*",
+    "value": "Chert hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-copper-*",
+    "value": "Copper hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-flint-*",
+    "value": "Flint hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-gold-*",
+    "value": "Golden hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-granite-*",
+    "value": "Granite hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-iron-*",
+    "value": "Iron hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-meteoriciron-*",
+    "value": "Meteoric iron hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-obsidian-*",
+    "value": "Obsidian hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-peridotite-*",
+    "value": "Peridotite hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-silver-*",
+    "value": "Silver hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-steel-*",
+    "value": "Steel hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-hoe-tinbronze-*",
+    "value": "Tin bronze hoe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-baselard-ruined-*",
+    "value": "Ruined baselard",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-dagger-ruined-*",
+    "value": "Ruined dagger",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-andesite-*",
+    "value": "Andesite knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-basalt-*",
+    "value": "Basalt knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-bismuthbronze-*",
+    "value": "Bismuth bronze knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-blackbronze-*",
+    "value": "Black bronze knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-chert-*",
+    "value": "Chert knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-copper-*",
+    "value": "Copper knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-flint-*",
+    "value": "Flint knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-gold-*",
+    "value": "Golden knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-granite-*",
+    "value": "Granite knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-iron-*",
+    "value": "Iron knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-meteoriciron-*",
+    "value": "Meteoric iron knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-obsidian-*",
+    "value": "Obsidian knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-peridotite-*",
+    "value": "Peridotite knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-silver-*",
+    "value": "Silver knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-steel-*",
+    "value": "Steel knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-generic-tinbronze-*",
+    "value": "Tin bronze knife",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-khanjar-ruined-*",
+    "value": "Ruined khanjar",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-knife-stiletto-ruined-*",
+    "value": "Ruined stiletto",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-bismuthbronze-*",
+    "value": "Bismuth bronze pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-blackbronze-*",
+    "value": "Black bronze pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-copper-*",
+    "value": "Copper pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-gold-*",
+    "value": "Golden pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-iron-*",
+    "value": "Iron pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-meteoriciron-*",
+    "value": "Meteoric iron pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-silver-*",
+    "value": "Silver pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-steel-*",
+    "value": "Steel pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-pickaxe-tinbronze-*",
+    "value": "Tin bronze pickaxe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-bismuthbronze-*",
+    "value": "Bismuth bronze prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-blackbronze-*",
+    "value": "Black bronze prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-copper-*",
+    "value": "Copper prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-gold-*",
+    "value": "Golden prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-iron-*",
+    "value": "Iron prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-meteoriciron-*",
+    "value": "Meteoric iron prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-silver-*",
+    "value": "Silver prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-steel-*",
+    "value": "Steel prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-prospectingpick-tinbronze-*",
+    "value": "Tin bronze prospecting pick",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-bismuthbronze-*",
+    "value": "Bismuth bronze saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-blackbronze-*",
+    "value": "Black bronze saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-copper-*",
+    "value": "Copper saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-gold-*",
+    "value": "Golden saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-iron-*",
+    "value": "Iron saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-meteoriciron-*",
+    "value": "Meteoric iron saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-silver-*",
+    "value": "Silver saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-steel-*",
+    "value": "Steel saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-saw-tinbronze-*",
+    "value": "Tin bronze saw",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-bismuthbronze-*",
+    "value": "Bismuth bronze scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-blackbronze-*",
+    "value": "Black bronze scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-copper-*",
+    "value": "Copper scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-gold-*",
+    "value": "Golden scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-iron-*",
+    "value": "Iron scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-meteoriciron-*",
+    "value": "Meteoric iron scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-silver-*",
+    "value": "Silver scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-steel-*",
+    "value": "Steel scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-scythe-tinbronze-*",
+    "value": "Tin bronze scythe",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-andesite-*",
+    "value": "Andesite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-basalt-*",
+    "value": "Basalt shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bismuthbronze-*",
+    "value": "Bismuth bronze shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-blackbronze-*",
+    "value": "Black bronze shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-andesite-*",
+    "value": "Andesite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-basalt-*",
+    "value": "Basalt shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-flint-*",
+    "value": "Flint shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-granite-*",
+    "value": "Granite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-obsidian-*",
+    "value": "Obsidian shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-bone-peridotite-*",
+    "value": "Peridotite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-chert-*",
+    "value": "Chert shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-copper-*",
+    "value": "Copper shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-flint-*",
+    "value": "Flint shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-gold-*",
+    "value": "Golden shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-granite-*",
+    "value": "Granite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-iron-*",
+    "value": "Iron shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-meteoriciron-*",
+    "value": "Meteoric iron shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-obsidian-*",
+    "value": "Obsidian shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-peridotite-*",
+    "value": "Peridotite shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-silver-*",
+    "value": "Silver shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-steel-*",
+    "value": "Steel shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-shovel-tinbronze-*",
+    "value": "Tin bronze shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-snowshovel-*",
+    "value": "Snow shovel",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-boar-ruined-*",
+    "value": "Ruined boar spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-fork-ruined-*",
+    "value": "Ruined war fork",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-andesite-*",
+    "value": "Andesite spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-basalt-*",
+    "value": "Basalt spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-bismuthbronze-*",
+    "value": "Bismuth bronze spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-blackbronze-*",
+    "value": "Black bronze spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-chert-*",
+    "value": "Chert spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-copper-*",
+    "value": "Copper spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-erel-*",
+    "value": "Long erel feather stem",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-flint-*",
+    "value": "Flint spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-granite-*",
+    "value": "Granite spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-hacking-*",
+    "value": "Tuning Spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-iron-*",
+    "value": "Iron spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-meteoriciron-*",
+    "value": "Meteoric iron spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-obsidian-*",
+    "value": "Obsidian spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-ornategold-*",
+    "value": "Ornate gold spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-ornatesilver-*",
+    "value": "Ornate silver spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-peridotite-*",
+    "value": "Peridotite spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-steel-*",
+    "value": "Steel spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-generic-tinbronze-*",
+    "value": "Tin bronze spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-ranseur-ruined-*",
+    "value": "Ruined ranseur",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-scrap-scrap-*",
+    "value": "Scrap spear",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/item-spear-voulge-ruined-*",
+    "value": "Ruined voulge",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/itemdesc-spear-generic-erel-*",
+    "value": "Looks throwable",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "add",
+    "path": "/itemdesc-spear-generic-hacking-*",
+    "value": "Attack a locust for a chance to convert it into an ally. It will follow and protect you, but you can only maintain one converted locust at a time.\n\n<font color=\"#99c9f9\"><i>Bring the wayward children home.</i></font><br>",
+    "file": "game:lang/en.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tutorial-firststeps-7",
+    "value": "The knife blade still needs a handle. Open your inventory (with <hk>inventorydialog</hk>), to craft a <itemstack type=\"item\">knife-generic-flint*|knife-generic-chert*|knife-generic-granite*|knife-generic-peridotite*|knife-generic-andesite*|knife-generic-basalt*|knife-generic-obsidian*</itemstack> <a href=\"handbooksearch://knife\">knife</a> in your 3x3 crafting grid. Click that link or use the handbook (open with <hk>handbook</hk>) to look up the recipe.",
+    "file": "game:lang/en.json"
+  }
+]

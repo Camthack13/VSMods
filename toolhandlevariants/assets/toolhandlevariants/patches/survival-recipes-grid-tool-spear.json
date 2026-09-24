@@ -1,0 +1,105 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "T\tS",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "spearhead-*",
+            "name": "metal",
+            "allowedVariants": [
+              "granite",
+              "andesite",
+              "basalt",
+              "obsidian",
+              "peridotite",
+              "chert",
+              "flint",
+              "copper",
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "iron",
+              "meteoriciron",
+              "steel"
+            ]
+          },
+          "S": {
+            "type": "item",
+            "code": "stick"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "spear-generic-{metal}-stick",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T\tH",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "spearhead-*",
+            "name": "metal",
+            "allowedVariants": [
+              "granite",
+              "andesite",
+              "basalt",
+              "obsidian",
+              "peridotite",
+              "chert",
+              "flint",
+              "copper",
+              "tinbronze",
+              "bismuthbronze",
+              "blackbronze",
+              "iron",
+              "meteoriciron",
+              "steel"
+            ]
+          },
+          "H": {
+            "type": "item",
+            "code": "plank-*",
+            "name": "handle",
+            "allowedVariants": [
+              "kapok",
+              "redwood",
+              "pine",
+              "baldcypress",
+              "larch",
+              "walnut",
+              "birch",
+              "oak",
+              "maple",
+              "acacia",
+              "purpleheart",
+              "ebony"
+            ]
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "spear-generic-{metal}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/spear.json",
+    "side": "Server"
+  }
+]

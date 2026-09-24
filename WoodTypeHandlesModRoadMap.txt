@@ -195,3 +195,11 @@ I am done adding features to this mod
 Now I need to work on packaging it so I can release it.
 
 What are the steps to packaging a mod. Number one, Use the modmaker file. then add the lang file. 
+I am reading about code mods. and I have something to say, I really need this to 
+
+basically If I want anybody to use this mod I should have a way to safely remove it. 
+Basically I need to have some converter that makes it so if I have some tools that were created 
+before applying the mod they get converted into *-stick tools so they can be loaded still after the mod is installed
+And maybe someway for all the tools to be stripped of their last tag converting them back to regualar tools 
+
+There might be a way to make this happen with a code mod maybe.

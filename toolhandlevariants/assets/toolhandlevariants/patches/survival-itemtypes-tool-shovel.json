@@ -1,0 +1,1246 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-andesite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-basalt",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-bismuthbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-blackbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-chert",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-copper",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-flint",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-gold",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-granite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-iron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-meteoriciron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-obsidian",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-peridotite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-silver",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-steel",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/shovel-tinbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-andesite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-basalt-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-bismuthbronze-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-blackbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-chert-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-copper-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-flint-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-gold-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-granite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-iron-*",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-meteoriciron-*",
+    "value": 2.35,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-obsidian-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-peridotite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-silver-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-steel-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-tinbronze-*",
+    "value": 1.75,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.59,
+        "z": -0.15
+      },
+      "rotation": {
+        "x": 13,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 0.88
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-andesite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-basalt",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-bismuthbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-blackbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-chert",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-copper",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-flint",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-gold",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-granite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-iron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-meteoriciron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-obsidian",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-peridotite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-silver",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-steel",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/shovel-tinbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)",
+    "value": 90,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 60,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)",
+    "value": 80,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 740,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 650,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-bismuthbronze-(walnut|birch|oak)",
+    "value": 710,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 790,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 700,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-blackbronze-(walnut|birch|oak)",
+    "value": 760,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 460,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 400,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-copper-(walnut|birch|oak)",
+    "value": 440,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-flint-(maple|acacia|purpleheart|ebony)",
+    "value": 120,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-flint-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 90,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-flint-(walnut|birch|oak)",
+    "value": 110,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 260,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 200,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-gold-(walnut|birch|oak)",
+    "value": 240,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1320,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1200,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-iron-(walnut|birch|oak)",
+    "value": 1280,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1520,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1400,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-meteoriciron-(walnut|birch|oak)",
+    "value": 1480,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-obsidian-(maple|acacia|purpleheart|ebony)",
+    "value": 130,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 100,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-obsidian-(walnut|birch|oak)",
+    "value": 120,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 260,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 200,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-silver-(walnut|birch|oak)",
+    "value": 240,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 3150,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 3000,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-steel-(walnut|birch|oak)",
+    "value": 3100,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 690,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 600,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@shovel-tinbronze-(walnut|birch|oak)",
+    "value": 660,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-*",
+    "value": {
+      "rotation": {
+        "x": -115,
+        "y": -28,
+        "z": 139
+      },
+      "origin": {
+        "x": 0.7,
+        "y": 0,
+        "z": 0.55
+      }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-andesite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-basalt",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-bismuthbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-blackbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-chert",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-copper",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-flint",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-gold",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-granite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-iron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-meteoriciron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-obsidian",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-peridotite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-silver",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-steel",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/shovel-tinbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-andesite-*",
+    "value": {
+      "soil": 2.2,
+      "sand": 2.2,
+      "gravel": 1.9,
+      "snow": 1.9
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-basalt-*",
+    "value": {
+      "soil": 2.2,
+      "sand": 2.2,
+      "gravel": 1.9,
+      "snow": 1.9
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-bismuthbronze-*",
+    "value": {
+      "soil": 5,
+      "sand": 5,
+      "gravel": 3.2,
+      "snow": 3.2
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-blackbronze-*",
+    "value": {
+      "soil": 5.5,
+      "sand": 5.5,
+      "gravel": 3.7,
+      "snow": 3.7
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-chert-*",
+    "value": {
+      "soil": 2.2,
+      "sand": 2.2,
+      "gravel": 1.9,
+      "snow": 1.9
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-copper-*",
+    "value": {
+      "soil": 4,
+      "sand": 4,
+      "gravel": 2.6,
+      "snow": 2.6
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-flint-*",
+    "value": {
+      "soil": 2.5,
+      "sand": 2.5,
+      "gravel": 2.1,
+      "snow": 2.1
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-gold-*",
+    "value": {
+      "soil": 5.4,
+      "sand": 5.4,
+      "gravel": 3.6,
+      "snow": 3.6
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-granite-*",
+    "value": {
+      "soil": 2.2,
+      "sand": 2.2,
+      "gravel": 1.9,
+      "snow": 1.9
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-iron-*",
+    "value": {
+      "soil": 6,
+      "sand": 6,
+      "gravel": 4,
+      "snow": 4
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-meteoriciron-*",
+    "value": {
+      "soil": 6.5,
+      "sand": 6.5,
+      "gravel": 4.2,
+      "snow": 4.2
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-obsidian-*",
+    "value": {
+      "soil": 3,
+      "sand": 3,
+      "gravel": 2.2,
+      "snow": 2.2
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-peridotite-*",
+    "value": {
+      "soil": 2.2,
+      "sand": 2.2,
+      "gravel": 1.9,
+      "snow": 1.9
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-silver-*",
+    "value": {
+      "soil": 5.4,
+      "sand": 5.4,
+      "gravel": 3.6,
+      "snow": 3.6
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-steel-*",
+    "value": {
+      "soil": 7,
+      "sand": 7,
+      "gravel": 4.4,
+      "snow": 4.4
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-tinbronze-*",
+    "value": {
+      "soil": 5.4,
+      "sand": 5.4,
+      "gravel": 3.6,
+      "snow": 3.6
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-andesite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-basalt",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-bismuthbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-blackbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-chert",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-copper",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-flint",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-gold",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-granite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-iron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-meteoriciron",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-obsidian",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-peridotite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-silver",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-steel",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/shovel-tinbronze",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-andesite-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-basalt-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-bismuthbronze-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-blackbronze-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-chert-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-copper-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-flint-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-gold-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-granite-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-iron-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-meteoriciron-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-obsidian-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-peridotite-*",
+    "value": {
+      "base": "item/tool/shovel-stone"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-silver-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-steel-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/shovel-tinbronze-*",
+    "value": {
+      "base": "item/tool/shovel-copper"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-andesite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-basalt",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-chert",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-flint",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-granite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-obsidian",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/shovel-peridotite",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/handle",
+    "value": {
+      "base": "block/wood/debarked/{handle}"
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server"
+  }
+]

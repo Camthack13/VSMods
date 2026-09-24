@@ -1,0 +1,73 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "T\tS",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "hoehead-*",
+            "name": "metal"
+          },
+          "S": {
+            "type": "item",
+            "code": "stick"
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "hoe-{metal}-stick",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      },
+      {
+        "ingredientPattern": "T\tH",
+        "ingredients": {
+          "T": {
+            "type": "item",
+            "code": "hoehead-*",
+            "name": "metal"
+          },
+          "H": {
+            "type": "item",
+            "code": "plank-*",
+            "name": "handle",
+            "allowedVariants": [
+              "kapok",
+              "redwood",
+              "pine",
+              "baldcypress",
+              "larch",
+              "walnut",
+              "birch",
+              "oak",
+              "maple",
+              "acacia",
+              "purpleheart",
+              "ebony"
+            ]
+          }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+          "type": "item",
+          "code": "hoe-{metal}-{handle}",
+          "quantity": 1,
+          "recipeAttributes": {
+            "applyquenchablebuffs": true
+          }
+        }
+      }
+    ],
+    "file": "game:recipes/grid/tool/hoe.json",
+    "side": "Server"
+  }
+]

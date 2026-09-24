@@ -1,0 +1,206 @@
+[
+  {
+    "op": "remove",
+    "path": "/allowedVariants/0",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-bismuthbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-blackbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-copper",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-gold",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-iron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-meteoriciron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-silver",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-steel",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/blade-falx-tinbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/blade-falx-*",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributesByType/blade-falx-*",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-bismuthbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-blackbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-copper",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-gold",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-iron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-meteoriciron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-silver",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-steel",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/blade-falx-tinbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/skipVariants/0",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/skipVariants/0",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/skipVariants/0",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-bismuthbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-blackbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-copper",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-gold",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-iron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-meteoriciron",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-silver",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-steel",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/blade-falx-tinbronze",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/0",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  }
+]

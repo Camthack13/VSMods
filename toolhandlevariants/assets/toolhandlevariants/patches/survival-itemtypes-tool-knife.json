@@ -1,0 +1,1845 @@
+[
+  {
+    "op": "replace",
+    "path": "/allowedVariants/1",
+    "value": "knife-dagger-ruined-stick",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/2",
+    "value": "knife-stiletto-ruined-stick",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/3",
+    "value": "knife-khanjar-ruined-stick",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/4",
+    "value": "knife-baselard-ruined-stick",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/*-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-andesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-basalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-bismuthbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-blackbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-boneandesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-bonebasalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-bonechert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-boneflint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-bonegranite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-boneobsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-boneperidotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-chert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-copper",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-flint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-gold",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-granite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-iron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-meteoriciron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-obsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-peridotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-silver",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-steel",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/knife-generic-tinbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/*-ruined-*",
+    "value": 3.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-andesite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-basalt-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-bismuthbronze-*",
+    "value": 2,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-blackbronze-*",
+    "value": 3,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-chert-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-copper-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-flint-*",
+    "value": 1,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-gold-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-granite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-iron-*",
+    "value": 3.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-meteoriciron-*",
+    "value": 3.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-obsidian-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-peridotite-*",
+    "value": 0.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-silver-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-steel-*",
+    "value": 4,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-tinbronze-*",
+    "value": 2.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/displayable/shelf/sizeByType/@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/displayable/shelf/sizeByType/@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-*",
+    "value": {
+      "width": 2,
+      "height": 1,
+      "length": 8
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/displayable/shelf/transformByType/@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/displayable/shelf/transformByType/@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-*",
+    "value": {
+      "translation": {
+        "x": -0.05,
+        "y": -0.07,
+        "z": 0.09
+      },
+      "rotation": {
+        "x": -90,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/knife-baselard-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/knife-dagger-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/knife-khanjar-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransformByType/knife-stiletto-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.01,
+        "z": -0.074
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/knife-baselard-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.3,
+        "z": -0.09
+      },
+      "rotation": {
+        "x": 26,
+        "y": 90,
+        "z": -87
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/knife-dagger-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.18,
+        "z": -0.147
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -101
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/knife-khanjar-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.065,
+        "z": -0.145
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -97
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType/knife-stiletto-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.17,
+        "z": -0.11
+      },
+      "rotation": {
+        "x": 26,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/knife-baselard-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/knife-dagger-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/knife-khanjar-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/toolrackTransformByType/knife-stiletto-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/knife-baselard-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.1,
+        "y": 0.6,
+        "z": -0.1
+      },
+      "rotation": {
+        "x": 69,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.72
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/knife-dagger-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0.6,
+        "z": -0.1
+      },
+      "rotation": {
+        "x": 122,
+        "y": 180,
+        "z": 3
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.44
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/knife-khanjar-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.1,
+        "y": 0.6,
+        "z": -0.1
+      },
+      "rotation": {
+        "x": 97,
+        "y": 180,
+        "z": 3
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.8
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/toolrackTransformByType/knife-stiletto-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0.17,
+        "y": 0.6,
+        "z": -0.1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.8
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-andesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-basalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-bismuthbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-blackbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-boneandesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-bonebasalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-bonechert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-boneflint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-bonegranite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-boneobsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-boneperidotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-chert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-copper",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-flint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-gold",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-granite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-iron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-meteoriciron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-obsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-peridotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-silver",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-steel",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/knife-generic-tinbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-(chert|granite|andesite|basalt|peridotite)-(bone|walnut|birch|oak)",
+    "value": 110,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)",
+    "value": 120,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 90,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-bismuthbronze-(bone|walnut|birch|oak)",
+    "value": 560,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-bismuthbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 590,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 500,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-blackbronze-(bone|walnut|birch|oak)",
+    "value": 610,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-blackbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 640,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 550,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-copper-(bone|walnut|birch|oak)",
+    "value": 340,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-copper-(maple|acacia|purpleheart|ebony)",
+    "value": 360,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-copper-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 300,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-flint-(bone|walnut|birch|oak)",
+    "value": 150,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-flint-(maple|acacia|purpleheart|ebony)",
+    "value": 160,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-flint-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 130,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-gold-(bone|walnut|birch|oak)",
+    "value": 190,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-gold-(maple|acacia|purpleheart|ebony)",
+    "value": 210,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-gold-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 150,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-iron-(bone|walnut|birch|oak)",
+    "value": 980,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-iron-(maple|acacia|purpleheart|ebony)",
+    "value": 1020,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-iron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 900,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-meteoriciron-(bone|walnut|birch|oak)",
+    "value": 1280,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-meteoriciron-(maple|acacia|purpleheart|ebony)",
+    "value": 1320,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 1200,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-obsidian-(bone|walnut|birch|oak)",
+    "value": 180,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-obsidian-(maple|acacia|purpleheart|ebony)",
+    "value": 190,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 160,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-silver-(bone|walnut|birch|oak)",
+    "value": 215,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-silver-(maple|acacia|purpleheart|ebony)",
+    "value": 235,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-silver-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 175,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-steel-(bone|walnut|birch|oak)",
+    "value": 2350,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-steel-(maple|acacia|purpleheart|ebony)",
+    "value": 2400,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-steel-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 2250,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-tinbronze-(bone|walnut|birch|oak)",
+    "value": 490,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-tinbronze-(maple|acacia|purpleheart|ebony)",
+    "value": 540,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@knife-generic-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)",
+    "value": 450,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/knife-baselard-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/knife-dagger-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/knife-khanjar-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/guiTransformByType/knife-stiletto-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/knife-baselard-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -158,
+        "y": 0,
+        "z": 48
+      },
+      "origin": {
+        "x": 0.78,
+        "y": 0.2,
+        "z": 0.9
+      },
+      "scale": 2.09
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/knife-dagger-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -168,
+        "y": 0,
+        "z": 43
+      },
+      "origin": {
+        "x": 0.48,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.84
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/knife-khanjar-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -158,
+        "y": 0,
+        "z": 40
+      },
+      "origin": {
+        "x": 0.75,
+        "y": 0.4,
+        "z": 1.24
+      },
+      "scale": 1.8
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/knife-stiletto-ruined-*",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -161,
+        "y": 11,
+        "z": 56
+      },
+      "origin": {
+        "x": 0.58,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 2.25
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/*-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-andesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-basalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-bismuthbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-blackbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-boneandesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-bonebasalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-bonechert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-boneflint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-bonegranite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-boneobsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-boneperidotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-chert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-copper",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-flint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-gold",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-granite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-iron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-meteoriciron",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-obsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-peridotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-silver",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-steel",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/knife-generic-tinbronze",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/*-ruined-*",
+    "value": {
+      "plant": 2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-andesite-*",
+    "value": {
+      "plant": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-basalt-*",
+    "value": {
+      "plant": 1.1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-bismuthbronze-*",
+    "value": {
+      "plant": 1.7
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-blackbronze-*",
+    "value": {
+      "plant": 1.9
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-chert-*",
+    "value": {
+      "plant": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-copper-*",
+    "value": {
+      "plant": 1.5
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-flint-*",
+    "value": {
+      "plant": 1.2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-gold-*",
+    "value": {
+      "plant": 1.6
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-granite-*",
+    "value": {
+      "plant": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-iron-*",
+    "value": {
+      "plant": 2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-meteoriciron-*",
+    "value": {
+      "plant": 2.2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-obsidian-*",
+    "value": {
+      "plant": 1.4
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-peridotite-*",
+    "value": {
+      "plant": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-silver-*",
+    "value": {
+      "plant": 1.6
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-steel-*",
+    "value": {
+      "plant": 2.4
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-tinbronze-*",
+    "value": {
+      "plant": 1.8
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/*-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-andesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-basalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-bone*",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-chert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-flint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-granite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-obsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/shapeByType/knife-generic-peridotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/*-ruined-*",
+    "value": {
+      "base": "item/tool/knife/ruined/{type}"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-andesite-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-basalt-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-chert-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-flint-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-granite-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-obsidian-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/shapeByType/knife-generic-peridotite-*",
+    "value": {
+      "base": "item/tool/knife/stone"
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/0",
+    "value": "knife-generic-ruined-*",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-*",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-andesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-basalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-boneandesite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-bonebasalt",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-bonechert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-boneflint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-bonegranite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-boneobsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-boneperidotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-chert",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-flint",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-granite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-obsidian",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/knife-generic-peridotite",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-.*",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-bone",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-stick",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-bone",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-stick",
+    "value": {
+      "material": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/*-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/knife-baselard-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/knife-dagger-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/tpHandTransformByType/knife-stiletto-ruined",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.7,
+        "y": 0.01,
+        "z": -0.49
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -3
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/knife-baselard-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.66,
+        "y": -0.01,
+        "z": -0.66
+      },
+      "rotation": {
+        "x": -19,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/knife-dagger-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.82,
+        "y": -0.04,
+        "z": -0.55
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -3
+      },
+      "scale": 0.9
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/knife-stiletto-ruined-*",
+    "value": {
+      "translation": {
+        "x": -0.63,
+        "y": 0.01,
+        "z": -0.65
+      },
+      "rotation": {
+        "x": -18,
+        "y": 0,
+        "z": -3
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/1",
+    "value": {
+      "code": "material",
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "gold",
+        "silver",
+        "iron",
+        "meteoriciron",
+        "steel",
+        "ruined"
+      ]
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/2",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "bone",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server"
+  }
+]

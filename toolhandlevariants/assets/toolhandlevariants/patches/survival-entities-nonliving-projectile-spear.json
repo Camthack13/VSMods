@@ -1,0 +1,238 @@
+[
+  {
+    "op": "replace",
+    "path": "/allowedVariants/1",
+    "value": "spear-scrap-scrap-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/2",
+    "value": "spear-boar-ruined-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/3",
+    "value": "spear-voulge-ruined-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/4",
+    "value": "spear-fork-ruined-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/5",
+    "value": "spear-ranseur-ruined-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/*-ruined",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/spear-generic-hacking",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/spear-generic-ornategold",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/spear-generic-ornatesilver",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/shapeByType/spear-scrap-scrap",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "base": "item/tool/spear/metal-{material}",
+      "offsetX": -0.8125
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/*-ruined-*",
+    "value": {
+      "base": "item/tool/spear/ruined/{type}"
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/spear-generic-hacking-*",
+    "value": {
+      "base": "item/tool/spear/hacking",
+      "offsetX": -0.8125
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/spear-generic-ornategold-*",
+    "value": {
+      "base": "item/tool/spear/ornategold",
+      "offsetX": -0.8125
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/spear-generic-ornatesilver-*",
+    "value": {
+      "base": "item/tool/spear/ornatesilver",
+      "offsetX": -0.8125
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/shapeByType/spear-scrap-scrap-*",
+    "value": {
+      "base": "item/tool/spear/scrap",
+      "offsetX": -0.8125
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/client/texturesByType/spear-generic-flint",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/texturesByType/@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick",
+    "value": {
+      "stone": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/client/texturesByType/@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-stick",
+    "value": {
+      "ingot": {
+        "base": "block/metal/ingot/{material}"
+      }
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/0",
+    "value": "spear-generic-ruined-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/1",
+    "value": "spear-generic-scrap-*",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/2",
+    "value": {
+      "code": "handle",
+      "states": [
+        "stick",
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  }
+]

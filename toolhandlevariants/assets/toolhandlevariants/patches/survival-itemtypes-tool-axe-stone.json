@@ -1,0 +1,356 @@
+[
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-bone-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-bone-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attackpowerbytype/axe-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-flint-*",
+    "value": 1.25,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attackpowerbytype/axe-obsidian-*",
+    "value": 1.5,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/creativeinventory/clutterByType/*-ruined",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/clutterByType/*-ruined-*",
+    "value": [
+      "*"
+    ],
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/*",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-andesite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-basalt",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-chert",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-granite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-bone-peridotite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/durabilitybytype/axe-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@.*-(bone|walnut|birch|oak)",
+    "value": 70,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@.*-(maple|acacia|purpleheart|ebony)",
+    "value": 80,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@.*-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 50,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-flint-(bone|walnut|birch|oak)",
+    "value": 80,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-flint-(maple|acacia|purpleheart|ebony)",
+    "value": 90,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-flint-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 60,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-obsidian-(bone|walnut|birch|oak)",
+    "value": 110,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-obsidian-(maple|acacia|purpleheart|ebony)",
+    "value": 120,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/durabilitybytype/@axe-obsidian-(stick|redwood|pine|baldcypress|larch|kapok)",
+    "value": 90,
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-bone-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-bone-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/miningspeedbytype/axe-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-flint-*",
+    "value": {
+      "wood": 2.8,
+      "plant": 2.2,
+      "leaves": 1.6
+    },
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/miningspeedbytype/axe-obsidian-*",
+    "value": {
+      "wood": 3.5,
+      "plant": 2.7,
+      "leaves": 2.4
+    },
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-andesite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-basalt",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-chert",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-granite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-obsidian",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/*-bone-peridotite",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/texturesByType/axe-flint",
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/wood/debarked/{handle}"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-bone",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      },
+      "handle": {
+        "base": "block/creature/bone-yellow"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*-stick",
+    "value": {
+      "material": {
+        "base": "block/stone/rock/{material}1"
+      }
+    },
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups",
+    "value": [
+      {
+        "code": "material",
+        "states": [
+          "chert",
+          "granite",
+          "andesite",
+          "basalt",
+          "obsidian",
+          "peridotite",
+          "flint"
+        ]
+      },
+      {
+        "code": "handle",
+        "states": [
+          "stick",
+          "bone",
+          "kapok",
+          "redwood",
+          "pine",
+          "baldcypress",
+          "larch",
+          "walnut",
+          "birch",
+          "oak",
+          "maple",
+          "acacia",
+          "purpleheart",
+          "ebony"
+        ]
+      }
+    ],
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "side": "Server"
+  }
+]
