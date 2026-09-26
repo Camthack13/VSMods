@@ -1,0 +1,216 @@
+{
+	code: "knife",
+	// ItemKnife contains code for harvesting animal carcasses
+	class: "ItemKnife",
+	tags: ["weapon", "weapon-melee", "tool-knife", "tool-trimming", "tool"],
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "knife",
+	attributes: {
+		attachableToEntity: { categoryCode: "toolholding" },
+		heldItemPitchFollow: 1,
+		knifeHitBlockAnimation: "knifecut",
+		knifeHitEntityAnimation: "knifestab",
+		handbook: {
+			groupBy: ["knife-*"]
+		},
+		toolrackTransformByType: {
+			"*": {
+				translation: { x: -0.3, y: 0.6, z: -0.1 },
+				rotation: { x: 97, y: 180, z: 3 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 1.8
+			}
+		},
+		groundStorageTransformByType: {
+			"@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": {
+				translation: { x: 0, y: 0.01, z: -0.074 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			},
+			"*": {
+				translation: { x: 0, y: 0.04, z: -0.104 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			}
+		},
+        displayable: {
+            shelf: {
+                sizeByType: {
+					"@.*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": { width: 2, height: 1, length: 8 },
+					"*": { width: 3, height: 1, length: 8 },
+				},
+				transformByType: {
+					"@.*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": {
+						translation: { x: -0.05, y: -0.07, z: 0.09 },
+						rotation: { x: -90, y: 0, z: 90 },
+						origin: { x: 0.5, y: 0.1, z: 0.5 }
+					},
+					"*": {
+						translation: { x: 0, y: -0.07, z: 0.065 },
+						rotation: { x: -90, y: 0, z: 90 },
+						origin: { x: 0.5, y: 0.1, z: 0.5 }
+					}
+				}
+			}
+        }
+	},
+	behaviors: [
+		{
+			name: "GroundStorable",
+			properties: {
+				layout: 'WallHalves',
+				wallOffY: 1,
+				ctrlKey: true,
+				selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+				collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+			},
+		},
+		{ name: "AnimationAuthoritative" },
+		{ name: "Buffable" }
+	],
+	variantgroups: [
+		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper",
+										"tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron","steel"]},
+		{ code: "handle", states: ["bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	shapeByType: {
+		"@.*-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-*": { base: "game:item/tool/knife/stone" },
+		"*": { base: "game:item/tool/knife/copper" }
+	},
+	heldTpHitAnimation: "knifestab",
+	texturesByType: {
+		"@knife-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-bone": {
+			"material": { base: "game:block/stone/rock/{material}1" },
+			"handle": { base: "game:block/creature/bone-yellow" }
+		},
+		"@knife-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-.*": {
+			"material": { base: "game:block/stone/rock/{material}1" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
+		},
+		"@knife-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-bone": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:block/creature/bone-yellow" }
+		},
+		"@knife-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
+		}
+	},
+	durabilitybytype: { 
+		"@.*-(chert|granite|andesite|basalt|peridotite)-(kapok|redwood|pine|baldcypress|larch)": 90, 
+		"@.*-(chert|granite|andesite|basalt|peridotite)-(bone|walnut|birch|oak)": 110, 
+ 		"@.*-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)": 120,
+		"@.*-flint-(kapok|redwood|pine|baldcypress|larch)": 130,
+		"@.*-flint-(bone|walnut|birch|oak)": 150, 
+		"@.*-flint-(maple|acacia|purpleheart|ebony)": 160,
+		"@.*-obsidian-(kapok|redwood|pine|baldcypress|larch)": 160,
+		"@.*-obsidian-(bone|walnut|birch|oak)": 180, 
+		"@.*-obsidian-(maple|acacia|purpleheart|ebony)": 190,
+		"@.*-gold-(kapok|redwood|pine|baldcypress|larch)": 150,
+		"@.*-gold-(bone|walnut|birch|oak)": 190, 
+		"@.*-gold-(maple|acacia|purpleheart|ebony)": 210,
+		"@.*-silver-(kapok|redwood|pine|baldcypress|larch)": 175,
+		"@.*-silver-(bone|walnut|birch|oak)": 215, 
+		"@.*-silver-(maple|acacia|purpleheart|ebony)": 235,
+		"@.*-copper-(kapok|redwood|pine|baldcypress|larch)": 300,
+		"@.*-copper-(bone|walnut|birch|oak)": 340, 
+		"@.*-copper-(maple|acacia|purpleheart|ebony)": 360,
+		"@.*-tinbronze-(kapok|redwood|pine|baldcypress|larch)": 450,
+		"@.*-tinbronze-(bone|walnut|birch|oak)": 490, 
+		"@.*-tinbronze-(maple|acacia|purpleheart|ebony)": 540,
+		"@.*-bismuthbronze-(kapok|redwood|pine|baldcypress|larch)": 500,
+		"@.*-bismuthbronze-(bone|walnut|birch|oak)": 560,
+		"@.*-bismuthbronze-(maple|acacia|purpleheart|ebony)": 590,
+		"@.*-blackbronze-(kapok|redwood|pine|baldcypress|larch)": 550,
+		"@.*-blackbronze-(bone|walnut|birch|oak)": 610, 
+		"@.*-blackbronze-(maple|acacia|purpleheart|ebony)": 640,
+		"@.*-iron-(kapok|redwood|pine|baldcypress|larch)": 900,
+		"@.*-iron-(bone|walnut|birch|oak)": 980, 
+		"@.*-iron-(maple|acacia|purpleheart|ebony)": 1020,
+		"@.*-meteoriciron-(kapok|redwood|pine|baldcypress|larch)": 1200,
+		"@.*-meteoriciron-(bone|walnut|birch|oak)": 1280, 
+		"@.*-meteoriciron-(maple|acacia|purpleheart|ebony)": 1320,
+		"@.*-steel-(kapok|redwood|pine|baldcypress|larch)": 2250,
+		"@.*-steel-(bone|walnut|birch|oak)": 2350, 
+		"@.*-steel-(maple|acacia|purpleheart|ebony)": 2400,
+	},
+	miningspeedbytype: {
+		"@.*-(chert|granite|andesite|peridotite)-.*": { 
+			"plant": 1, 
+		},
+		"*-basalt-*": {
+			"plant": 1.1,
+		},
+		"*-obsidian-*": {
+			"plant": 1.4,
+		},
+		"*-flint-*": {
+			"plant": 1.2,
+		},
+		"*-copper-*": {
+			"plant": 1.5,
+		},
+		"@.*-(silver|gold)-.*": {
+			"plant": 1.6,
+		},
+		"*-bismuthbronze-*": {
+			"plant": 1.7,
+		},
+		"*-tinbronze-*": {
+			"plant": 1.8,
+		},
+		"*-blackbronze-*": {
+			"plant": 1.9,
+		},
+		"*-iron-*": {
+			"plant": 2
+		},
+		"*-meteoriciron-*": {
+			"plant": 2.2
+		},
+		"*-steel-*": {
+			"plant": 2.4,
+		}
+	},
+	attackpowerbytype: {
+		"*-chert-*": 0.75,
+		"*-granite-*": 0.75,
+		"*-peridotite-*": 0.75,
+		"*-andesite-*": 0.75,
+		"*-basalt-*": 0.75,
+		"*-obsidian-*": 1.5,
+		"*-flint-*": 1,
+		"*-copper-*": 1.5,
+		"*-bismuthbronze-*": 2,
+		"*-tinbronze-*": 2.5,
+		"*-gold-*": 2.5,
+		"*-silver-*": 2.5,
+		"*-blackbronze-*": 3,
+		"*-iron-*": 3.5,
+		"*-meteoriciron-*": 3.75,
+		"*-steel-*": 4,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -158, y: 0, z: 48 },
+			origin: { x: 0.48, y: 0.1, z: 0.5 },
+			scale: 2.41
+		},
+	},
+	groundTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.45 },
+			scale: 3.6
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.84, y: -0.11, z: -0.48 },
+			rotation: { x: 0, y: 0, z: -15 },
+			scale: 1
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
   "Type": "Content",
   "Name": "Tool Handle Variants",
-  "Version": "1.0.0",
+  "Version": "1.1.1",
   "Description": "Adds variantGroup 'handle' to tools with wooden handles, so handles can be made of different wood types.",
   "ModID": "toolhandlevariants",
   "Authors": [

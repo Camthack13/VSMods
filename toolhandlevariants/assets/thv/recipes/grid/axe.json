@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:axehead-*", name: "material", allowedVariants: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ]  },
+			"H": { type: "item", code: "game:bone"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "axe-{material}-bone", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:axehead-*", name: "material", allowedVariants: [  "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert"  ]  },
+			"H": { type: "item", code: "game:plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "axe-{material}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

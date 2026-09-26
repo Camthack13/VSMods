@@ -207,3 +207,16 @@ There might be a way to make this happen with a code mod maybe.
 I tried using the mod maker and it didn't work how I expected at all. It tried to generate patches to the files These didn't really work since my changes are so signicant that
 Every single line of every file needed to be changed. This means that my mod will not be compatible with any other mods that touch these files. I need to just overwrite the entire file.
 
+I have decided to divorce the vanilla tools with my modded tools so I don't have to change every piece of code that toches tool, and it will also solve the issue of adding the mod to an existing game world
+
+I moved axes over to the new architecture.
+Now i just need to move all the rest of the tools, 
+I need to move 
+knives
+shovels
+spears
+spear entity
+scyths
+saws
+pickaxes
+prospecting picks
