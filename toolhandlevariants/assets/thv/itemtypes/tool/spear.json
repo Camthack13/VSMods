@@ -1,0 +1,218 @@
+{
+	code: "spear",
+	class: "ItemSpear",
+	tags: ["weapon", "weapon-melee", "weapon-spear"],
+	damagedby: ["attacking"],
+	tool: "spear",
+	behaviors: [
+		{ name: "GroundStorable", 
+			properties: { 
+				layout: 'WallHalves', 
+				wallOffYByType:{ "@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": 2, "*": 3 }, 
+				ctrlKey: true, 
+				selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 }, 
+				collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 } 
+			} 
+		},
+		{ name: "Buffable" },
+		{ name: "AnimationAuthoritative" }
+	],
+	variantgroups: [
+		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	shapeByType: {
+		"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { base: "game:item/tool/spear/stone" },
+		"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { base: "game:item/tool/spear/metal-{material}" },
+	},
+	texturesByType: {
+		"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
+			"stone": { base: "block/stone/rock/{material}1" },
+			"handle": { base: "block/wood/debarked/{handle}" } 
+		},
+		"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
+			"ingot": { base: "block/metal/ingot/{material}" },
+			"handle": { base: "block/wood/debarked/{handle}" } 
+		},
+	},
+	heldTpIdleAnimation: "spearidle",
+	heldRightReadyAnimation: "spearidle",
+	heldTpHitAnimation: "spearhit",
+	attackRange: 3.5,
+	attackpowerbytype: {
+		"spear-chert-*": 1.75,
+		"spear-granite-*": 1.75,
+		"spear-andesite-*": 1.75,
+		"spear-peridotite-*": 1.75,
+		"spear-basalt-*": 1.75,
+		"spear-flint-*": 2,
+		"spear-obsidian-*": 2.25,
+		"spear-copper-*": 2.75,
+		"spear-bismuthbronze-*": 3.25,
+		"spear-tinbronze-*": 3.75,
+		"spear-blackbronze-*": 4,
+		"spear-iron-*": 4.2,
+		"spear-meteoriciron-*": 4.3,
+		"spear-steel-*": 4.4
+	},
+	attributes: {
+		heldItemPitchFollow: 1,
+		groundStorageTransformByType: {
+			"@spear-(copper|tinbronze|bismuthbronze)-.*": {
+				translation: { x: -0.39, y: 0.78, z: 0.235 },
+				rotation: { x: 16, y: 1, z: 90 },
+				scale: 0.85
+			},
+			"@spear-(blackbronze|iron|meteoriciron|steel)-.*": {
+				translation: { x: -0.39, y: 0.78, z: 0.2 },
+				rotation: { x: 16, y: 1, z: 90 },
+				scale: 0.85
+			},
+			"*": {
+				translation: { x: 0, y: 0.26, z: 0.596 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			}
+		},
+		// Thrown damage
+		damageByType: {
+			"*-flint-*": 4.0,
+			"*-obsidian-*": 4.5,
+			"*-copper-*": 5,
+			"*-bismuthbronze-*": 5.75,
+			"*-tinbronze-*": 6.0,
+			"*-blackbronze-*": 6.5,
+			"*-iron-*": 6.8,
+			"*-meteoriciron-*": 6.9,
+			"*-steel-*": 7.0,
+			"*": 3.0
+		},
+		damageTierByType: {
+			"*-chert-*": 0,
+			"*-granite-*": 0,
+			"*-andesite-*": 0,
+			"*-peridotite-*": 0,
+			"*-basalt-*": 0,
+			"*-flint-*": 0,
+			"*-obsidian-*": 0,
+			"*-copper-*": 0,
+			"*-bismuthbronze-*": 0,
+			"*-tinbronze-*": 0,
+			"*-blackbronze-*": 0,
+			"*-iron-*": 1,
+			"*-meteoriciron-*": 1,
+			"*-steel-*": 2
+		},
+		spearEntityCodeByType: {
+			"*": "spear-{material}-{handle}"
+		},
+		handbook: {
+			groupBy: ["spear-*"]
+		},
+		toolrackTransformByType: {
+			"@spear-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)-.*": {
+				rotation: { x: 90, y: 1, z: -1 },
+				translation: { x: 0.31, y: 0.04, z: 0.7 },
+				scale: 1.36
+			},
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.23, y: 0.66 },
+				scale: 1.36
+			}
+		},
+		rangedWeaponsSpeedMul: 0.5,
+		texturesByType: {
+			"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
+				"stone": { base: "block/stone/rock/{material}1" },
+				"handle": { base: "block/wood/debarked/{handle}" } 
+			},
+			"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
+				"ingot": { base: "block/metal/ingot/{material}" },
+				"handle": { base: "block/wood/debarked/{handle}" } 
+			},
+		},
+		antlerMountable: true,
+		onAntlerMountTransformByType: {
+			"spear-generic-*": {
+				translation: { x: -0.406, y: 0.5, z: 0.15 },
+				rotation: { x: -90, y: -90, z: -90 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.8
+			},
+			"*": {
+				translation: { x: -0.406, y: 0.533, z: 0.12 },
+				rotation: { x: -90, y: 0, z: -90 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.8
+			}			
+		}
+	},
+	durabilitybytype: {
+		"@spear-(chert|granite|andesite|basalt|peridotite)-(kapok|redwood|pine|baldcypress|larch)": 16,
+		"@spear-obsidian-(kapok|redwood|pine|baldcypress|larch)": 45,
+		"@spear-flint-(kapok|redwood|pine|baldcypress|larch)": 32,
+		"@spear-copper-(kapok|redwood|pine|baldcypress|larch)": 140,
+		"@spear-tinbronze-(kapok|redwood|pine|baldcypress|larch)": 220,
+		"@spear-bismuthbronze-(kapok|redwood|pine|baldcypress|larch)": 260,
+		"@spear-blackbronze-(kapok|redwood|pine|baldcypress|larch)": 300,
+		"@spear-iron-(kapok|redwood|pine|baldcypress|larch)": 400,
+		"@spear-meteoriciron-(kapok|redwood|pine|baldcypress|larch)": 450,
+		"@spear-steel-(kapok|redwood|pine|baldcypress|larch)": 700,
+		"@spear-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)": 36,
+		"@spear-obsidian-(walnut|birch|oak)": 65,
+		"@spear-flint-(walnut|birch|oak)": 52,
+		"@spear-copper-(walnut|birch|oak)": 180,
+		"@spear-tinbronze-(walnut|birch|oak)": 280,
+		"@spear-bismuthbronze-(walnut|birch|oak)": 320,
+		"@spear-blackbronze-(walnut|birch|oak)": 360,
+		"@spear-iron-(walnut|birch|oak)": 480,
+		"@spear-meteoriciron-(walnut|birch|oak)": 530,
+		"@spear-steel-(walnut|birch|oak)": 800,
+		"@spear-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)": 46,
+		"@spear-obsidian-(maple|acacia|purpleheart|ebony)": 75,
+		"@spear-flint-(maple|acacia|purpleheart|ebony)": 62,
+		"@spear-copper-(maple|acacia|purpleheart|ebony)": 200,
+		"@spear-tinbronze-(maple|acacia|purpleheart|ebony)": 310,
+		"@spear-bismuthbronze-(maple|acacia|purpleheart|ebony)": 350,
+		"@spear-blackbronze-(maple|acacia|purpleheart|ebony)": 390,
+		"@spear-iron-(maple|acacia|purpleheart|ebony)": 520,
+		"@spear-meteoriciron-(maple|acacia|purpleheart|ebony)": 570,
+		"@spear-steel-(maple|acacia|purpleheart|ebony)": 850,
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransformByType: {
+		"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": {
+			rotation: { x: 33, y: 0, z: -127 },
+			origin: { x: 1.39, y: 0.05, z: 0.52 },
+			scale: 2.26
+		},
+		"*": {
+			rotation: { x: -39, y: -29, z: -134 },
+			origin: { x: 1.4, y: 0.05, z: 0.5 },
+			scale: 3.09
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0.05, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		}
+	},
+	tpHandTransformByType: {
+		"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)-.*": {
+			translation: { x: -1.29, y: 0.03, z: -0.57 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.6, y: 0, z: 0.5 },
+			scale: 0.8
+		},
+		"*": {
+			translation: { x: -1.29, y: 0.02, z: -0.57 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.8
+		}
+	}
+}

@@ -1,0 +1,23 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:bladehead-falx-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]  },
+			"H": { type: "item", code: "game:plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "blade-falx-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},	
+	{
+		ingredientPattern: "T,P,S",
+		ingredients: {
+			"T": { type: "item", code: "game:bladehead-falx-steel" },
+			"S": { type: "item", code: "game:plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] },
+			"P": { type: "item", code: "game:metalplate-*", name: "plate", allowedVariants: ["gold", "silver"] , quantity: 1 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "blade-falx-{plate}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},	
+]

@@ -1,0 +1,250 @@
+{
+	code: "blade",
+	tags: ["weapon", "weapon-melee", "weapon-sword", "tool-sword"],
+	damagedby: ["blockbreaking", "attacking"],
+	tool: "sword",
+	variantgroups: [
+		{ code: "type", states: ["falx"] },
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] },
+		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	shapeByType: {
+		"*": { base: "game:item/tool/blade/{type}" }
+	},
+	texturesByType: {
+		"blade-falx-copper-*": {
+			"falxstring": { base: "game:block/cloth/burlap/string" },
+			"thongs": { base: "game:block/cloth/leather/longstiches" },
+			"woodguard": { base: "game:block/wood/debarked/veryaged" },
+			"handle":  { base: "game:block/wood/debarked/{handle}" },
+			"falxblade":  { base: "game:block/metal/ingot/copper" },
+			"cloth":  { base: "game:block/transparent" },
+			"handguard":  { base: "game:block/transparent" },
+			"spinerivet":  { base: "game:block/transparent" },
+			"pips":  { base: "game:block/transparent" }
+		},
+		"blade-falx-tinbronze-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}" },
+			"falxblade":  { base: "game:block/metal/ingot/tinbronze" },
+			"cloth":  { base: "game:block/transparent" },
+			"handguard":  { base: "game:block/metal/sheet/tinbronze1" },
+			"spinerivet":  { base: "game:block/metal/sheet/tinbronze1" },
+			"pips":  { base: "game:block/transparent" }
+		},
+		"blade-falx-bismuthbronze-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/bismuthbronze"  },
+			"cloth":  { base: "game:block/transparent"  },
+			"handguard":  { base: "game:block/metal/sheet/bismuthbronze5"  },
+			"spinerivet":  { base: "game:block/metal/sheet/bismuthbronze5"  },
+			"pips":  { base: "game:block/transparent"  }
+		},
+		"blade-falx-blackbronze-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/sheet/blackbronze5"  },
+			"cloth":  { base: "game:block/transparent"  },
+			"handguard":  { base: "game:block/metal/sheet/blackbronze5"  },
+			"spinerivet":  { base: "game:block/metal/sheet/lead1"  },
+			"pips":  { base: "game:block/transparent"  }
+		},
+		"blade-falx-iron-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/iron"  },
+			"cloth":  { base: "game:block/transparent"  },
+			"handguard":  { base: "game:block/metal/sheet/lead1"  },
+			"spinerivet":  { base: "game:block/metal/sheet/lead1"  },
+			"pips":  { base: "game:block/transparent"  }
+		},
+		"blade-falx-meteoriciron-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/meteoriciron"  },
+			"cloth":  { base: "game:block/transparent"  },
+			"handguard":  { base: "game:block/metal/sheet/meteoriciron1"  },
+			"spinerivet":  { base: "game:block/metal/sheet/iron1"  },
+			"pips":  { base: "game:block/transparent"  }
+		},
+		"blade-falx-steel-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/steel"  },
+			"cloth":  { base: "game:block/transparent"  },
+			"handguard":  { base: "game:block/metal/sheet/steel1"  },
+			"spinerivet":  { base: "game:block/metal/sheet/lead1"  },
+			"pips":  { base: "game:block/transparent"  }
+		},
+		"blade-falx-silver-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/steel"  },
+			"cloth":  { base: "game:block/cloth/linen/blue"  },
+			"handguard":  { base: "game:block/metal/sheet/silver1"  },
+			"spinerivet":  { base: "game:block/metal/sheet/silver1"  },
+			"pips":  { base: "game:block/metal/sheet/silver1"  }
+		},
+		"blade-falx-gold-*": {
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/{handle}"  },
+			"falxblade":  { base: "game:block/metal/ingot/steel"  },
+			"cloth":  { base: "game:block/cloth/linen/black"  },
+			"handguard":  { base: "game:block/metal/sheet/gold1"  },
+			"spinerivet":  { base: "game:block/metal/sheet/gold1"  },
+			"pips":  { base: "game:block/metal/sheet/gold1"  }
+		}
+	},
+	attributes: {
+		heldItemPitchFollow: 0.9,
+		handbook: {
+			groupBy: ["blade-*"]
+		},
+		toolrackTransformByType: {
+			"*": {
+				rotation: { y: 180, z: 1 },
+				translation: { x: -0.1, y: 0.6 },
+				scale: 1.25
+			}
+		},
+		groundStorageTransformByType: {
+			"blade-falx-*": {
+				translation: { x: 0.24, y: 0.195, z: -0.06 },
+				rotation: { x: 24, y: 61, z: -87 },
+				scale: 0.88
+			},
+			"*": {
+				translation: { x: 0.24, y: 0.195, z: -0.06 },
+				rotation: { x: 24, y: 61, z: -87 },
+				scale: 0.88
+			}
+		},
+		antlerMountable: true,
+		onAntlerMountTransformByType: {
+			"*": {
+				translation: { x: -0.45, y: 0.533, z: -0.1 },
+				rotation: { x: -90, y: 0, z: -90 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.8
+			}
+		}
+	},
+	attributesByType: {
+		"blade-falx-*": {
+			ripHarvest: true,
+			attachableToEntity: {
+				categoryCode: "weaponfalx",
+				attachedShapeBySlotCode: {
+					"frontrightside": { base: "game:item/wearable/hooved/elk/weaponr-falx" },
+					"frontleftside": { base: "game:item/wearable/hooved/elk/weaponl-falx" }
+				}
+			}
+		},
+        "*":{
+                attachableToEntity: { categoryCode: "toolholding" },
+        }
+	},
+	behaviors: [
+		{
+			name: "GroundStorable",
+			properties: {
+				layout: 'WallHalves',
+				wallOffYByType: {
+					"*": 1
+				},
+				ctrlKey: true,
+				selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+				collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+			},
+		},
+		{ name: "AnimationAuthoritative" },
+		{ name: "Buffable" },
+		{ name: "Sharpenable" },
+	],
+	heldTpHitAnimationByType: {
+		"*": "falx"
+	},
+	attackRangebytype: {
+		"*": 2.5
+	},
+	tooltierbytype: {
+		"*-copper-*": 2,
+		"*-gold-*": 5,
+		"*-silver-*": 5,
+		"*-bismuthbronze-*": 3,
+		"*-tinbronze-*": 3,
+		"*-blackbronze-*": 3,
+		"*-iron-*": 4,
+		"*-meteoriciron-*": 4,
+		"*-steel-*": 5,
+	},
+	attackpowerbytype: {
+		"blade-falx-copper-*": 3.75,
+		"blade-falx-bismuthbronze-*": 4.25,
+		"blade-falx-tinbronze-*": 4.5,
+		"blade-falx-blackbronze-*": 4.75,
+		"blade-falx-iron-*": 5,
+		"blade-falx-meteoriciron-*": 5.25,
+		"blade-falx-steel-*": 5.25,
+		"blade-falx-gold-*": 5.25,
+		"blade-falx-silver-*": 5.25,
+	},
+	durabilitybytype: {
+		"blade-falx-copper-*": 250,
+		"blade-falx-tinbronze-*": 450,
+		"blade-falx-bismuthbronze-*": 530,
+		"blade-falx-blackbronze-*": 600,
+		"blade-falx-iron-*": 850,
+		"blade-falx-meteoriciron-*": 1100,
+		"blade-falx-steel-*": 2125,
+		"blade-falx-gold-*": 2125,
+		"blade-falx-silver-*": 2125
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } }
+	},
+	guiTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -53, y: 118, z: -5 },
+				origin: { x: 0.65, y: 0.1, z: 0.37 },
+				scale: 1.65
+			}
+	},
+	groundTransformByType: {
+		"*":
+			{
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 3.4
+			}
+	},
+	tpHandTransformByType: {
+		"*":
+			{
+				translation: { x: -1.03, y: -0.005, z: -0.66 },
+				rotation: { x: 85, y: 0, z: 2 },
+				origin: { x: 0.5, y: 0, z: 0.5 },
+				scale: 0.8
+			}
+	}
+}

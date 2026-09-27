@@ -39,12 +39,12 @@
 		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
 	damagedby: ["blockbreaking", "attacking"],
-	shape: { base: "item/tool/saw" },
+	shape: { base: "game:item/tool/saw" },
 	heldTpHitAnimation: "breaktool",
 	texturesByType: {
 		"*": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"wood": { base: "block/wood/debarked/{handle}" }
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"wood": { base: "game:block/wood/debarked/{handle}" }
 		}
 	},
 	tooltierbytype: {

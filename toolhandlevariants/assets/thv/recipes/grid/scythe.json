@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:scythehead-*", name: "metal"  },
+			"H": { type: "item", code: "game:plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "scythe-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

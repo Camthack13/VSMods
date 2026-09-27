@@ -1,0 +1,52 @@
+{
+	code: "spear",
+	class: "EntityProjectile",
+	tags: ["inanimate", "projectile"],
+	hitboxSize: { x: 0.125, y: 0.125 },
+	variantgroups: [
+		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "scrap", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+	],
+	attributes: {
+		isProjectile: true
+	},
+	client: {
+		renderer: "Shape",
+		shapeByType: {
+			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { base: "game:item/tool/spear/metal-{material}", offsetX: -0.8125 },
+			"*": { base: "game:item/tool/spear/stone", offsetX: -0.8125 }
+		},
+		texturesByType: {
+			"@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
+				"stone": { base: "game:block/stone/rock/{material}1" },
+				"handle": { base: "game:block/wood/debarked/{handle}" } 
+			},
+			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
+				"ingot": { base: "game:block/metal/ingot/{material}" },
+				"handle": { base: "game:block/wood/debarked/{handle}" } 
+			},
+		},
+		behaviors: [
+			{
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			},
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFactor: 0.25,
+				gravityFactor: 0.75
+			},
+			{ code: "despawn", minSeconds: 600 },
+			{ code: "entitystatetags" }
+		]
+	},
+	sounds: { }
+}

@@ -2,8 +2,8 @@
 	{
 		ingredientPattern: "T	H",
 		ingredients: {
-			"T": { type: "item", code: "prospectingpickhead-*", name: "metal"  },
-			"H": { type: "item", code: "*", allowedVariants: [ "stick", "bone" ], name: "handle" }
+			"T": { type: "item", code: "game:prospectingpickhead-*", name: "metal"  },
+			"H": { type: "item", code: "game:bone" }
 		},
 		width: 1,
 		height: 2,
@@ -12,8 +12,8 @@
 	{
 		ingredientPattern: "T	H",
 		ingredients: {
-			"T": { type: "item", code: "prospectingpickhead-*", name: "metal"  },
-			"H": { type: "item", code: "plank-*", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"], name: "handle" }
+			"T": { type: "item", code: "game:prospectingpickhead-*", name: "metal"  },
+			"H": { type: "item", code: "game:plank-*", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"], name: "handle" }
 		},
 		width: 1,
 		height: 2,

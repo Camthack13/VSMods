@@ -5,23 +5,20 @@
 	storageFlags: 5,
 	variantgroups: [
 		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver",  "iron", "meteoriciron", "steel" ] },
-		{ code: "handle", states: ["stick", "bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		{ code: "handle", states: ["bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
 	shapeByType: {
-		"@pickaxe-(iron|meteoriciron|steel)-*": { base: "item/tool/pickaxe-iron" },
-		"*": { base: "item/tool/pickaxe" }
+		"@pickaxe-(iron|meteoriciron|steel)-*": { base: "game:item/tool/pickaxe-iron" },
+		"*": { base: "game:item/tool/pickaxe" }
 	},
 	texturesByType: {
 		"*-bone": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"handle": { base: "block/creature/bone-yellow" }
-		},
-		"*-stick": {
-			"metal": { base: "block/metal/ingot/{metal}" }
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"handle": { base: "game:block/creature/bone-yellow" }
 		},
 		"@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"handle": { base: "block/wood/debarked/{handle}" }
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		}
 	},
 	attributes: {
@@ -59,14 +56,9 @@
 	damagedby: ["blockbreaking", "attacking"],
 	heldTpHitAnimation: "pickaxe",
 	tooltierbytype: {
-		"*-copper-*": 2,
-		"*-gold-*": 2,
-		"*-silver-*": 2,
-		"*-bismuthbronze-*": 3,
-		"*-tinbronze-*": 3,
-		"*-blackbronze-*": 3,
-		"*-iron-*": 4,
-		"*-meteoriciron-*": 4,
+		"@.*-(copper|gold|silver)-.*": 2,
+		"@.*-(bismuthbronze|blackbronze|tinbronze)-.*": 3,
+		"@.*-(iron|meteoriciron)-*": 4,
 		"*-steel-*": 5
 	},
 	miningspeedbytype: {
@@ -146,39 +138,39 @@
 		"pickaxe-steel-*": 2.5
 	},
 	durabilitybytype: {
-		"@pickaxe-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 150,
+		"@pickaxe-gold-(kapok|redwood|pine|baldcypress|larch)": 150,
 		"@pickaxe-gold-(bone|walnut|birch|oak)": 190, 
 		"@pickaxe-gold-(maple|acacia|purpleheart|ebony)": 210,
 
-		"@pickaxe-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 175,
+		"@pickaxe-silver-(kapok|redwood|pine|baldcypress|larch)": 175,
 		"@pickaxe-silver-(bone|walnut|birch|oak)": 215, 
 		"@pickaxe-silver-(maple|acacia|purpleheart|ebony)": 235,
 
-		"@pickaxe-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 300,
+		"@pickaxe-copper-(kapok|redwood|pine|baldcypress|larch)": 300,
 		"@pickaxe-copper-(bone|walnut|birch|oak)": 340, 
 		"@pickaxe-copper-(maple|acacia|purpleheart|ebony)": 360,
 
-		"@pickaxe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 450,
+		"@pickaxe-tinbronze-(kapok|redwood|pine|baldcypress|larch)": 450,
 		"@pickaxe-tinbronze-(bone|walnut|birch|oak)": 490, 
 		"@pickaxe-tinbronze-(maple|acacia|purpleheart|ebony)": 540,
 
-		"@pickaxe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 500,
+		"@pickaxe-bismuthbronze-(kapok|redwood|pine|baldcypress|larch)": 500,
 		"@pickaxe-bismuthbronze-(bone|walnut|birch|oak)": 560,
 		"@pickaxe-bismuthbronze-(maple|acacia|purpleheart|ebony)": 590,
 
-		"@pickaxe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 550,
+		"@pickaxe-blackbronze-(kapok|redwood|pine|baldcypress|larch)": 550,
 		"@pickaxe-blackbronze-(bone|walnut|birch|oak)": 610, 
 		"@pickaxe-blackbronze-(maple|acacia|purpleheart|ebony)": 640,
 
-		"@pickaxe-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 1000,
+		"@pickaxe-iron-(kapok|redwood|pine|baldcypress|larch)": 1000,
 		"@pickaxe-iron-(bone|walnut|birch|oak)": 1080, 
 		"@pickaxe-iron-(maple|acacia|purpleheart|ebony)": 1120,
 
-		"@pickaxe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 1300,
+		"@pickaxe-meteoriciron-(kapok|redwood|pine|baldcypress|larch)": 1300,
 		"@pickaxe-meteoriciron-(bone|walnut|birch|oak)": 1380, 
 		"@pickaxe-meteoriciron-(maple|acacia|purpleheart|ebony)": 1420,
 
-		"@pickaxe-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 2500,
+		"@pickaxe-steel-(kapok|redwood|pine|baldcypress|larch)": 2500,
 		"@pickaxe-steel-(bone|walnut|birch|oak)": 2600, 
 		"@pickaxe-steel-(maple|acacia|purpleheart|ebony)": 2650,
 	},

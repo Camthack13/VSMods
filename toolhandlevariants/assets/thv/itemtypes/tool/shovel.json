@@ -37,76 +37,30 @@
 	variantgroups: [
 		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint",
 										"copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver","iron", "meteoriciron", "steel"] },
-		{ code: "handle", states: ["stick", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
 	tool: "shovel",
 	damagedby: ["blockbreaking", "attacking"],
 	shapeByType: {
-		"shovel-chert-*": { base: "item/tool/shovel-stone" },
-		"shovel-granite-*": { base: "item/tool/shovel-stone" },
-		"shovel-andesite-*": { base: "item/tool/shovel-stone" },
-		"shovel-basalt-*": { base: "item/tool/shovel-stone" },
-		"shovel-obsidian-*": { base: "item/tool/shovel-stone" },
-		"shovel-peridotite-*": { base: "item/tool/shovel-stone" },
-		"shovel-flint-*": { base: "item/tool/shovel-stone" },
-		"shovel-copper-*": { base: "item/tool/shovel-copper" },
-		"shovel-tinbronze-*": { base: "item/tool/shovel-copper" },
-		"shovel-bismuthbronze-*": { base: "item/tool/shovel-copper" },
-		"shovel-blackbronze-*": { base: "item/tool/shovel-copper" },
-		"shovel-gold-*": { base: "item/tool/shovel-copper" },
-		"shovel-silver-*": { base: "item/tool/shovel-copper" },
-		"shovel-iron-*": { base: "item/tool/shovel-copper" },
-		"shovel-meteoriciron-*": { base: "item/tool/shovel-copper" },
-		"shovel-steel-*": { base: "item/tool/shovel-copper" }
+		"@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { base: "game:item/tool/shovel-stone" },
+		"@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": { base: "game:item/tool/shovel-copper" },
 	},
 	heldTpIdleAnimation: "shovelidle",
 	heldRightReadyAnimation: "shovelready",
 	heldTpHitAnimation: "shoveldig",
 	heldTpUseAnimation: "interactStaticLong",
 	texturesByType: {
-		"@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick": {
-			"material": { base: "block/stone/rock/{material}1" },
-			
-		},
 		"@shovel-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": {
-			"material": { base: "block/stone/rock/{material}1" },
-			"handle": { base: "block/wood/debarked/{handle}" }
-		},
-		"*-stick": {
-			"material": { base: "block/metal/ingot/{material}" },
-			
+			"material": { base: "game:block/stone/rock/{material}1" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		},
 		"*": {
-			"material": { base: "block/metal/ingot/{material}" },
-			"handle": { base: "block/wood/debarked/{handle}" }
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		},
 	},
 	miningspeedbytype: {
-		"shovel-chert-*": {
-			"soil": 2.2,
-			"sand": 2.2,
-			"gravel": 1.9,
-			"snow": 1.9
-		},
-		"shovel-granite-*": {
-			"soil": 2.2,
-			"sand": 2.2,
-			"gravel": 1.9,
-			"snow": 1.9
-		},
-		"shovel-peridotite-*": {
-			"soil": 2.2,
-			"sand": 2.2,
-			"gravel": 1.9,
-			"snow": 1.9
-		},
-		"shovel-andesite-*": {
-			"soil": 2.2,
-			"sand": 2.2,
-			"gravel": 1.9,
-			"snow": 1.9
-		},
-		"shovel-basalt-*": {
+		"@shovel-(chert|granite|andesite|basalt|peridotite)-.*": {
 			"soil": 2.2,
 			"sand": 2.2,
 			"gravel": 1.9,
@@ -180,13 +134,8 @@
 		}
 	},
 	attackpowerbytype: {
-		"shovel-chert-*": 0.75,
-		"shovel-granite-*": 0.75,
-		"shovel-andesite-*": 0.75,
-		"shovel-peridotite-*": 0.75,
-		"shovel-basalt-*": 0.75,
+		"@shovel-(chert|granite|andesite|basalt|peridotite)-.*": 0.75,
 		"shovel-obsidian-*": 1.25,
-
 		"shovel-flint-*": 1,
 		"shovel-copper-*": 1.25,
 		"shovel-gold-*": 1.5,

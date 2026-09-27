@@ -1,0 +1,13 @@
+[
+	{	
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:spearhead-*", name: "metal", allowedVariants: ["granite", "andesite", "basalt", "obsidian", "peridotite", "chert", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+			"H": { type: "item", code: "game:plank-*", name: "handle", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "spear-generic-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}	
+]
+

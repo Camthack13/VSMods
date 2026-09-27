@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:hammerhead-*", name: "metal"  },
+			"H": { type: "item", code: "game:bone"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "hammer-{metal}-bone", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	},
+	{
+		ingredientPattern: "T	H",
+		ingredients: {
+			"T": { type: "item", code: "game:hammerhead-*", name: "metal"  },
+			"H": { type: "item", code: "game:plank-*", allowedVariants: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"], name: "handle" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "hammer-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+	}
+]

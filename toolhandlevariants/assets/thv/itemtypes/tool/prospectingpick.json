@@ -34,30 +34,24 @@
 	},
     { name: "Buffable"}],
 	variantgroups: [
-		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver",
-															"iron", "meteoriciron", "steel"
-		  ] },
-		{ code: "handle", states: ["stick", "bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver","iron", "meteoriciron", "steel"] },
+		{ code: "handle", states: ["bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
 	tool: "pickaxe",
 	damagedby: ["blockbreaking", "attacking"],
-	shape: { base: "item/tool/prospectingpick" },
+	shape: { base: "game:item/tool/prospectingpick" },
 	heldTpHitAnimation: "smithing",
 	texturesByType: {
 		"*-bone": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"handle": { base: "block/creature/bone-yellow" }
-		},
-		"*-stick": {
-			"metal": { base: "block/metal/ingot/{metal}" }
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"handle": { base: "game:block/creature/bone-yellow" }
 		},
 		"@.*-(kapok|redwood|pine|baldcypress|larch|walnut|birch|oak|maple|acacia|purpleheart|ebony)": {
-			"metal": { base: "block/metal/ingot/{metal}" },
-			"handle": { base: "block/wood/debarked/{handle}" }
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		}
 	},
 	tooltierbytype: {
-		"*-stone-*": 1,
 		"*-copper-*": 2,
 		"*-gold-*": 2,
 		"*-silver-*": 2,
@@ -120,39 +114,39 @@
 		"prospectingpick-steel-*": 2.5
 	},
 	durabilitybytype: {
-		"@prospectingpick-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 60,
+		"@prospectingpick-gold-(kapok|redwood|pine|baldcypress|larch)": 60,
 		"@prospectingpick-gold-(bone|walnut|birch|oak)": 100, 
 		"@prospectingpick-gold-(maple|acacia|purpleheart|ebony)": 120,
 
-		"@prospectingpick-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 80,
+		"@prospectingpick-silver-(kapok|redwood|pine|baldcypress|larch)": 80,
 		"@prospectingpick-silver-(bone|walnut|birch|oak)": 120, 
 		"@prospectingpick-silver-(maple|acacia|purpleheart|ebony)": 140,
 
-		"@prospectingpick-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 150,
+		"@prospectingpick-copper-(kapok|redwood|pine|baldcypress|larch)": 150,
 		"@prospectingpick-copper-(bone|walnut|birch|oak)": 190, 
 		"@prospectingpick-copper-(maple|acacia|purpleheart|ebony)": 210,
 
-		"@prospectingpick-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 250,
+		"@prospectingpick-tinbronze-(kapok|redwood|pine|baldcypress|larch)": 250,
 		"@prospectingpick-tinbronze-(bone|walnut|birch|oak)": 310, 
 		"@prospectingpick-tinbronze-(maple|acacia|purpleheart|ebony)": 340,
 
-		"@prospectingpick-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 300,
+		"@prospectingpick-bismuthbronze-(kapok|redwood|pine|baldcypress|larch)": 300,
 		"@prospectingpick-bismuthbronze-(bone|walnut|birch|oak)": 360,
 		"@prospectingpick-bismuthbronze-(maple|acacia|purpleheart|ebony)": 390,
 
-		"@prospectingpick-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 350,
+		"@prospectingpick-blackbronze-(kapok|redwood|pine|baldcypress|larch)": 350,
 		"@prospectingpick-blackbronze-(bone|walnut|birch|oak)": 410, 
 		"@prospectingpick-blackbronze-(maple|acacia|purpleheart|ebony)": 440,
 
-		"@prospectingpick-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 650,
+		"@prospectingpick-iron-(kapok|redwood|pine|baldcypress|larch)": 650,
 		"@prospectingpick-iron-(bone|walnut|birch|oak)": 730, 
 		"@prospectingpick-iron-(maple|acacia|purpleheart|ebony)": 770,
 
-		"@prospectingpick-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 900,
+		"@prospectingpick-meteoriciron-(kapok|redwood|pine|baldcypress|larch)": 900,
 		"@prospectingpick-meteoriciron-(bone|walnut|birch|oak)": 980, 
 		"@prospectingpick-meteoriciron-(maple|acacia|purpleheart|ebony)": 1020,
 
-		"@prospectingpick-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 1625,
+		"@prospectingpick-steel-(kapok|redwood|pine|baldcypress|larch)": 1625,
 		"@prospectingpick-steel-(bone|walnut|birch|oak)": 1725, 
 		"@prospectingpick-steel-(maple|acacia|purpleheart|ebony)": 1775
 	},

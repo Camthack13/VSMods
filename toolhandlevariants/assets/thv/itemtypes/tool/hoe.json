@@ -50,44 +50,22 @@
 	variantgroups: [
 		{ code: "material", states: ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", 
 										"copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron","steel"] },
-		{ code: "handle", states: ["stick", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
+		{ code: "handle", states: ["kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
 	damagedby: ["blockbreaking", "attacking"],
 	shapeByType: {
-		"*-chert-*": { "base": "item/tool/hoe-stone" },
-		"*-granite-*": { "base": "item/tool/hoe-stone" },
-		"*-andesite-*": { "base": "item/tool/hoe-stone" },
-		"*-basalt-*": { "base": "item/tool/hoe-stone" },
-		"*-obsidian-*": { "base": "item/tool/hoe-stone" },
-		"*-peridotite-*": { "base": "item/tool/hoe-stone" },
-		"*-flint-*": { "base": "item/tool/hoe-stone" },
-		"*-copper-*": { "base": "item/tool/hoe-copper" },
-		"*-tinbronze-*": { "base": "item/tool/hoe-copper" },
-		"*-bismuthbronze-*": { "base": "item/tool/hoe-copper" },
-		"*-blackbronze-*": { "base": "item/tool/hoe-copper" },
-		"*-gold-*": { "base": "item/tool/hoe-copper" },
-		"*-silver-*": { "base": "item/tool/hoe-copper" },
-		"*-iron-*": { "base": "item/tool/hoe-copper" },
-		"*-meteoriciron-*": { "base": "item/tool/hoe-copper" },
-		"*-steel-*": { "base": "item/tool/hoe-copper" }
+		"@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { "base": "game:item/tool/hoe-stone" },
+		"@.*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)-.*": { "base": "game:item/tool/hoe-copper" },
 	},
 	heldTpHitAnimation: "breaktool",
 	texturesByType: {
-		"@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-stick": {
-			"material": { base: "block/stone/rock/{material}1" },
-			
-		},
 		"@hoe-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": {
-			"material": { base: "block/stone/rock/{material}1" },
-			"handle": { base: "block/wood/debarked/{handle}" }
-		},
-		"*-stick": {
-			"material": { base: "block/metal/ingot/{material}" },
-			
+			"material": { base: "game:block/stone/rock/{material}1" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		},
 		"*": {
-			"material": { base: "block/metal/ingot/{material}" },
-			"handle": { base: "block/wood/debarked/{handle}" }
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" }
 		},
 	},
 	tool: "hoe",
@@ -130,51 +108,51 @@
 		}
 	},
 	durabilitybytype: {
-		"@hoe-(chert|granite|andesite|basalt|peridotite)-(stick|kapok|redwood|pine|baldcypress|larch)": 30, 
+		"@hoe-(chert|granite|andesite|basalt|peridotite)-(kapok|redwood|pine|baldcypress|larch)": 30, 
 		"@hoe-(chert|granite|andesite|basalt|peridotite)-(walnut|birch|oak)": 50, 
  		"@hoe-(chert|granite|andesite|basalt|peridotite)-(maple|acacia|purpleheart|ebony)": 60,
 
-		"@hoe-flint-(stick|kapok|redwood|pine|baldcypress|larch)": 40,
+		"@hoe-flint-(kapok|redwood|pine|baldcypress|larch)": 40,
 		"@hoe-flint-(walnut|birch|oak)": 60,
 		"@hoe-flint-(maple|acacia|purpleheart|ebony)": 70,
 
-		"@hoe-obsidian-(stick|kapok|redwood|pine|baldcypress|larch)": 50,
+		"@hoe-obsidian-(kapok|redwood|pine|baldcypress|larch)": 50,
 		"@hoe-obsidian-(walnut|birch|oak)": 70, 
 		"@hoe-obsidian-(maple|acacia|purpleheart|ebony)": 80,
 
-		"@hoe-gold-(stick|kapok|redwood|pine|baldcypress|larch)": 90,
+		"@hoe-gold-(kapok|redwood|pine|baldcypress|larch)": 90,
 		"@hoe-gold-(walnut|birch|oak)": 130, 
 		"@hoe-gold-(maple|acacia|purpleheart|ebony)": 150,
 
-		"@hoe-silver-(stick|kapok|redwood|pine|baldcypress|larch)": 90,
+		"@hoe-silver-(kapok|redwood|pine|baldcypress|larch)": 90,
 		"@hoe-silver-(walnut|birch|oak)": 130, 
 		"@hoe-silver-(maple|acacia|purpleheart|ebony)": 150,
 
-		"@hoe-copper-(stick|kapok|redwood|pine|baldcypress|larch)": 200,
+		"@hoe-copper-(kapok|redwood|pine|baldcypress|larch)": 200,
 		"@hoe-copper-(walnut|birch|oak)": 240, 
 		"@hoe-copper-(maple|acacia|purpleheart|ebony)": 260,
 
-		"@hoe-tinbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 280,
+		"@hoe-tinbronze-(kapok|redwood|pine|baldcypress|larch)": 280,
 		"@hoe-tinbronze-(walnut|birch|oak)": 340, 
 		"@hoe-tinbronze-(maple|acacia|purpleheart|ebony)": 370,
 
-		"@hoe-bismuthbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 300,
+		"@hoe-bismuthbronze-(kapok|redwood|pine|baldcypress|larch)": 300,
 		"@hoe-bismuthbronze-(walnut|birch|oak)": 360,
 		"@hoe-bismuthbronze-(maple|acacia|purpleheart|ebony)": 390,
 
-		"@hoe-blackbronze-(stick|kapok|redwood|pine|baldcypress|larch)": 330,
+		"@hoe-blackbronze-(kapok|redwood|pine|baldcypress|larch)": 330,
 		"@hoe-blackbronze-(walnut|birch|oak)": 390, 
 		"@hoe-blackbronze-(maple|acacia|purpleheart|ebony)": 420,
 
-		"@hoe-iron-(stick|kapok|redwood|pine|baldcypress|larch)": 500,
+		"@hoe-iron-(kapok|redwood|pine|baldcypress|larch)": 500,
 		"@hoe-iron-(walnut|birch|oak)": 580,
 		"@hoe-iron-(maple|acacia|purpleheart|ebony)": 620,
 
-		"@hoe-meteoriciron-(stick|kapok|redwood|pine|baldcypress|larch)": 600,
+		"@hoe-meteoriciron-(kapok|redwood|pine|baldcypress|larch)": 600,
 		"@hoe-meteoriciron-(walnut|birch|oak)": 680, 
 		"@hoe-meteoriciron-(maple|acacia|purpleheart|ebony)": 720,
 
-		"@hoe-steel-(stick|kapok|redwood|pine|baldcypress|larch)": 1250,
+		"@hoe-steel-(kapok|redwood|pine|baldcypress|larch)": 1250,
 		"@hoe-steel-(walnut|birch|oak)": 1350, 
 		"@hoe-steel-(maple|acacia|purpleheart|ebony)": 1400,
 	},
