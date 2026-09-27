@@ -27,12 +27,12 @@
 	},
 	texturesByType: {
 		"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
-			"stone": { base: "block/stone/rock/{material}1" },
-			"handle": { base: "block/wood/debarked/{handle}" } 
+			"stone": { base: "game:block/stone/rock/{material}1" },
+			"handle": { base: "game:block/wood/debarked/{handle}" } 
 		},
 		"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
-			"ingot": { base: "block/metal/ingot/{material}" },
-			"handle": { base: "block/wood/debarked/{handle}" } 
+			"ingot": { base: "game:block/metal/ingot/{material}" },
+			"handle": { base: "game:block/wood/debarked/{handle}" } 
 		},
 	},
 	heldTpIdleAnimation: "spearidle",
@@ -104,7 +104,7 @@
 			"*-steel-*": 2
 		},
 		spearEntityCodeByType: {
-			"*": "spear-{material}-{handle}"
+			"*": "thv:spear-{material}-{handle}"
 		},
 		handbook: {
 			groupBy: ["spear-*"]
@@ -124,12 +124,12 @@
 		rangedWeaponsSpeedMul: 0.5,
 		texturesByType: {
 			"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
-				"stone": { base: "block/stone/rock/{material}1" },
-				"handle": { base: "block/wood/debarked/{handle}" } 
+				"stone": { base: "game:block/stone/rock/{material}1" },
+				"handle": { base: "game:block/wood/debarked/{handle}" } 
 			},
 			"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
-				"ingot": { base: "block/metal/ingot/{material}" },
-				"handle": { base: "block/wood/debarked/{handle}" } 
+				"ingot": { base: "game:block/metal/ingot/{material}" },
+				"handle": { base: "game:block/wood/debarked/{handle}" } 
 			},
 		},
 		antlerMountable: true,

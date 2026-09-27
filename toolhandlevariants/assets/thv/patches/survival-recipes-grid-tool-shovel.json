@@ -1,0 +1,41 @@
+[
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "_P_,_P_,PCP",
+    "file": "game:recipes/grid/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/C",
+    "value": {
+      "type": "item",
+      "code": "plank-*",
+      "name": "color",
+      "allowedVariants": [
+        "kapok",
+        "redwood",
+        "pine",
+        "baldcypress",
+        "larch",
+        "walnut",
+        "birch",
+        "oak",
+        "maple",
+        "acacia",
+        "purpleheart",
+        "ebony"
+      ]
+    },
+    "file": "game:recipes/grid/tool/shovel.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/output/code",
+    "value": "snowshovel-{color}",
+    "file": "game:recipes/grid/tool/shovel.json",
+    "side": "Server"
+  }
+]

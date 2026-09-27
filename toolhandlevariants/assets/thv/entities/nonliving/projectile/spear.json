@@ -13,15 +13,15 @@
 	client: {
 		renderer: "Shape",
 		shapeByType: {
-			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { base: "game:item/tool/spear/metal-{material}", offsetX: -0.8125 },
+			"@spear-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { base: "game:item/tool/spear/metal-{material}", offsetX: -0.8125 },
 			"*": { base: "game:item/tool/spear/stone", offsetX: -0.8125 }
 		},
 		texturesByType: {
-			"@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
+			"@spear-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-.*": { 
 				"stone": { base: "game:block/stone/rock/{material}1" },
 				"handle": { base: "game:block/wood/debarked/{handle}" } 
 			},
-			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
+			"@spe-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)-.*": { 
 				"ingot": { base: "game:block/metal/ingot/{material}" },
 				"handle": { base: "game:block/wood/debarked/{handle}" } 
 			},

@@ -22,7 +22,7 @@
 		width: 1, height: 2, 
 		output: { 
 			type: "item", 
-			code: "knife-generic-{material}-{handle}", 
+			code: "knife-{material}-{handle}", 
 			quantity: 1, 
 			recipeAttributes: { "applyquenchablebuffs": true } 
 		} 

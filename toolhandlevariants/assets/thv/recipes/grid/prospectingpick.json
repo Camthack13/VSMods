@@ -7,7 +7,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "prospectingpick-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+		output: { type: "item", code: "prospectingpick-{metal}-bone", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
 	},
 	{
 		ingredientPattern: "T	H",

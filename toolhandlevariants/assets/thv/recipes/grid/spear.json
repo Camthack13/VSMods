@@ -7,7 +7,7 @@
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "spear-generic-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
+		output: { type: "item", code: "spear-{metal}-{handle}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true  }  }
 	}	
 ]
 

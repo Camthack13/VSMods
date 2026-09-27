@@ -73,8 +73,11 @@
 										"tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron","steel"]},
 		{ code: "handle", states: ["bone", "kapok", "redwood", "pine", "baldcypress", "larch", "walnut", "birch", "oak", "maple", "acacia", "purpleheart", "ebony"] }
 	],
+	skipVariants: [
+		"@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)-bone"
+	],
 	shapeByType: {
-		"@.*-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-*": { base: "game:item/tool/knife/stone" },
+		"@.*-(chert|granite|andesite|basalt|obsidian|flint|peridotite)-.*": { base: "game:item/tool/knife/stone" },
 		"*": { base: "game:item/tool/knife/copper" }
 	},
 	heldTpHitAnimation: "knifestab",
