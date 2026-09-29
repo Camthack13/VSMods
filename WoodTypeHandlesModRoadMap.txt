@@ -226,3 +226,7 @@ THV total tools 2354
 
 over 1600 new tools 1643 to be persise
 
+I have gotten comments requesting a tool smith compatiblity patches
+What would that look like? I don't know. I guess I just make the wood variants on tool handles themselves first. 
+First thing I noticed that is a code mod. I don't know how to do that yet.
+I have to learn how that works fist

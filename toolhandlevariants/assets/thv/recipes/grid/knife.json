@@ -2,7 +2,7 @@
 	{ 
 		ingredientPattern: "T	S",
 		ingredients: { 
-			"T": { type: "item", code: "game:knifeblade-*", name: "material", allowedVariants: [ "chert", "granite", "andesite", "basalt", "peridotite", "flint", "obsidian", "gold", "silver", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }, 
+			"T": { type: "item", code: "game:knifeblade-*", name: "material", allowedVariants: ["gold", "silver", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }, 
 			"S": { type: "item", code: "game:bone" } 
 		}, 
 		width: 1, height: 2, 
